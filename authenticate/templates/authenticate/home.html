@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+        
+        body{
+            background:#FAFAFA;
+        }
+        .order-card {
+            color: #fff;
+        }
+
+        .bg-c-blue {
+            background: linear-gradient(45deg,#0d335e,#73b4ff);
+        }
+
+        .bg-c-green {
+            background: linear-gradient(45deg,#40645d,#59e0c5);
+        }
+
+        .bg-c-yellow {
+            background: linear-gradient(45deg,#4c3515,#ffcb80);
+        }
+
+        .bg-c-pink {
+            background: linear-gradient(45deg,#681120,#ff869a);
+        }
+
+
+        .card {
+            border-radius: 5px;
+            -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+            box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+            border: none;
+            margin-bottom: 30px;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .card .card-block {
+            padding: 25px;
+        }
+
+        .order-card i {
+            font-size: 26px;
+        }
+
+        .f-left {
+            float: left;
+        }
+
+        .f-right {
+            float: right;
+        }
+        .card:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3)
+        }
+</style>
+{% if messages %}
+{% for message in messages %}
+<div class="alert alert-success alert-dismissible fade show mt-4" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+    </button>
+    {{ message }}
+</div>
+{% endfor %}
+{% endif %}
+
+<div class="container" style="max-width: 90%;">
+
+    {% if request.user.is_authenticated %}
+        <br><br>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <div class="container" style="max-width: 90%;">
+            <div class="row">
+                <div class="col-md-4 col-xl-3">
+                    <a  href="{% url 'withdrawform' %}" style="text-decoration: none; color: inherit;">
+                        <div class="card bg-c-blue order-card" style="transition: box-shadow 0.3s;">
+                            <div class="card-block">
+                                <h6 class="m-b-20">Withdraw Cash</h6>
+                                <h2 class="text-right"><i class="fa fa-cart-plus f-left"></i></h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-md-4 col-xl-3">
+                    <a href="{% url 'depositform' %}" style="text-decoration: none; color: inherit;">
+                            <div class="card bg-c-green order-card" style="transition: box-shadow 0.3s;">
+                                <div class="card-block">
+                                    <h6 class="m-b-20">Deposit</h6>
+                                    <h2 class="text-right"><i class="fa fa-rocket f-left"></i></h2>
+                                </div>
+                            </div>
+                    </a>
+                </div>
+                
+                <div class="col-md-4 col-xl-3">
+                    <a href="balance_enquiry.html" style="text-decoration: none; color: inherit;">
+                            <div class="card bg-c-yellow order-card" style="transition: box-shadow 0.3s;">
+                                <div class="card-block">
+                                    <h6 class="m-b-20">Balance Enquiry</h6>
+                                    <h2 class="text-right"><i class="fa fa-refresh f-left"></i></h2>
+                                </div>
+                            </div>
+                    </a>
+                </div>
+                
+                <div class="col-md-4 col-xl-3">
+                    <a href="passbook.html" style="text-decoration: none; color: inherit;">
+                            <div class="card bg-c-pink order-card" style="transition: box-shadow 0.3s;">
+                                <div class="card-block">
+                                    <h6 class="m-b-20">Passbook</h6>
+                                    <h2 class="text-right"><i class="fa fa-credit-card f-left"></i></h2>
+                                </div>
+                            </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    {% else %}
+    <h1 class="text-muted text-center mt-5 mb-5">Welcome to CSC AEPS</h1>
+    <h2 class="text-muted text-center mt-5">Login to see user information</h2>
+    {% endif %}
+</div>
+{% endblock content %}

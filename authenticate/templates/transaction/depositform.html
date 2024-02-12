@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-9" style="margin-top: 50px;">
+            <div class="card p-3 shadow">
+                <form>
+                    <div class="form-group">
+                        <label for="customerMobileNumber">Customer Mobile Number</label>
+                        <input type="tel" class="form-control" id="depositformcustomerMobileNumber" placeholder="Enter mobile number">
+                        <small id="emailHelp" class="form-text text-muted">You will receive otp on your registered Mobile Number.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="aadharNumber">Aadhar Number</label>
+                        <input type="text" class="form-control" id="depositformaadharNumber" placeholder="Enter Aadhar number">
+                        <small id="emailHelp" class="form-text text-muted">Enter 16-digits Aadhar Number.</small>
+                
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">Amount</label>
+                        <input type="number" class="form-control" id="depositformamount" placeholder="Enter amount">
+                        <small id="emailHelp" class="form-text text-muted">Enter the amount you want to deposit.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="bankOption">Bank Option</label>
+                        <select class="form-control" id="depositformbankOption">
+                            <option value="sbi">SBI</option>
+                            <option value="icici">ICICI Bank</option>
+                            <option value="pnb">PNB Bank</option>
+                            <option value="pnb">Kotak Bank</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="depositformexampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Deposit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

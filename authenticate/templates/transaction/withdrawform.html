@@ -1,0 +1,200 @@
+{% extends 'base.html' %}
+
+<!-- <script>
+    let methodInfo = "";
+    let methodCapture = "";
+    let finalUrl = '';
+    const getCustomDomName = "127.0.0.1";
+
+    async function sleep(milliseconds) {
+        return new Promise(resolve => setTimeout(resolve, milliseconds));
+    }
+
+    async function discoverAvdm(startPort, endPort, port8005) {
+    let result = {};
+
+    for (let i = startPort; i <= endPort; i++) {
+        const primaryUrl = http://${getCustomDomName}:;
+        let successFlag = false;
+
+        try {
+            const protocol = window.location.href.includes("https") ? "https://" : "http://";
+            finalUrl = protocol + getCustomDomName + ":" + i.toString();
+        } catch (e) {}
+
+        let cmbData1 = "";
+        let cmbData2 = "";
+
+        try {
+            const response = await fetch(finalUrl, { method: "RDSERVICE", cache: "no-cache" });
+            const data = await response.text();
+            const $doc = new DOMParser().parseFromString(data, "text/xml");
+            cmbData1 = $doc.querySelector('RDService').getAttribute('status');
+            cmbData2 = $doc.querySelector('RDService').getAttribute('info');
+            
+            if ($doc.querySelector('Interface[path="/rd/capture"]')) {
+                methodCapture = "/rd/capture";
+            }
+
+            if ($doc.querySelector('Interface[path="/rd/info"]')) {
+                methodInfo = "/rd/info";
+            }
+
+            if (cmbData1 && cmbData2 && methodCapture && methodInfo) {
+                successFlag = true;
+                result = {
+                    raw_xml: { httpStatus: true, data: data },
+                    port: i.toString(),
+                    status: cmbData1,
+                    info: cmbData2,
+                    methodCapture: methodCapture,
+                    methodInfo: methodInfo
+                };
+            }
+        } catch (error) {
+            if (i == port8005) {
+                i = 11099;
+            }
+            result = { httpStatus: false, err: error.status };
+        }
+
+        if (successFlag) {
+            break;
+        }
+    }
+
+    if (Object.keys(result).length === 0) {
+        console.log("Connection failed. Please try again.");
+    } else {
+        console.log(result.status === 'READY' ? "RDSERVICE Discover Successfully" : "RDSERVICE Discover Unsuccessfully");
+    }
+    return result;
+}
+
+    async function deviceInfoAvdm(discoveryResult) {
+    let res;
+    const finalUrl = http://${getCustomDomName}:${discoveryResult.port}${discoveryResult.methodInfo};
+
+    try {
+        const response = await fetch(finalUrl, { method: "DEVICEINFO", cache: "no-cache" });
+        const data = await response.text();
+        res = { httpStatus: true, data: data };
+    } catch (error) {
+        res = { httpStatus: false, err: error.status };
+    }
+
+    return res;
+}
+
+    async function captureAvdm(discoveryResult, txtWithaadhar, txtOtp, txtClientKey) {
+    let result = {};
+    const strWithaadhar = txtWithaadhar !== '' ? ` wadh="${txtWithaadhar}"` : '';
+    const strOtp = txtOtp !== '' ? ` otp="${txtOtp}"` : '';
+
+    const XML = `<?xml version="1.0"?>
+        <PidOptions ver="1.0">
+            <Opts fCount="1" fType="0" iCount="0" pCount="0" pgCount="0"${strOtp} format="0" 
+                  pidVer="2.0" timeout="10000" pTimeout=""${strWithaadhar} posh="UNKNOWN" env="P" />
+            <CustOpts>
+                <Param name="mantrakey" value="${txtClientKey}" />
+            </CustOpts>
+        </PidOptions>`;
+
+    const finalUrl = http://${getCustomDomName}:${discoveryResult.port}${discoveryResult.methodCapture};
+
+    try {
+        const response = await fetch(finalUrl, {
+            method: "CAPTURE",
+            cache: "no-cache",
+            headers: {
+                "Content-Type": "text/xml; charset=utf-8"
+            },
+            body: XML
+        });
+        const data = await response.text();
+        result = { httpStatus: true, data: data };
+        const $doc = new DOMParser().parseFromString(data, "text/xml");
+        const message = $doc.querySelector('Resp').getAttribute('errInfo');
+        alert(message);
+    } catch (error) {
+        result = { httpStatus: false, err: error.status };
+        alert(error);
+    }
+
+    return result;
+}
+
+    async function globalCapture() {
+        const discoveryResult = await discoverAvdm(11100, 11105, 8005);
+    
+        if (Object.keys(discoveryResult).length !== 0 && discoveryResult.status === 'READY') {
+            console.log("Device is ready.");
+            const deviceInfoResult = await deviceInfoAvdm(discoveryResult);
+            console.log("device Info Result:", deviceInfoResult);
+    
+            const captureResult = await captureAvdm(discoveryResult, '', '', '');
+            console.log("capture Result:", captureResult);
+    
+            if (captureResult.httpStatus) {
+                document.querySelector('.btn-withdraw').disabled = false;
+            }
+        } else {
+            console.log("Failed to capture..!");
+        }
+    }
+    
+    document.querySelector('.btn-authenticate').addEventListener('click', async () => {
+        await globalCapture();
+    });
+    
+</script> -->
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-9" style="margin-top: 50px;">
+            <div class="card p-3 shadow">
+                <form method="GET" action="{% url 'process_withdrawform' %}">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="customerMobileNumber">Customer Mobile Number</label>
+                        <input type="tel" class="form-control" id="withdrawformcustomerMobileNumber" name="customermobilenumber" placeholder="Enter mobile number" required>
+                        <small id="mobileNumberHelp" class="form-text text-muted">You will receive otp on your registered Mobile Number.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="aadharNumber">Aadhar Number</label>
+                        <input type="text" class="form-control" id="withdrawformaadharNumber" name="aadharNumber" placeholder="Enter Aadhar number" required>
+                        <small id="aadharNumberHelp" class="form-text text-muted">Enter 16-digits Aadhar Number.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">Amount</label>
+                        <input type="number" class="form-control" id="withdrawformamount" name="amount" placeholder="Enter amount" required>
+                        <small id="amountHelp" class="form-text text-muted">Enter the amount you want to withdraw.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="bankOption">Bank Option</label>
+                        <select class="form-control" id="withdrawformbankOption" name="bankOption">
+                            <option value="sbi">SBI</option>
+                            <option value="icici">ICICI Bank</option>
+                            <option value="pnb">PNB Bank</option>
+                            <option value="kotak">Kotak Bank</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="withdrawformexampleCheck1" name="checkboxChecked">
+                        <label class="form-check-label" for="withdrawformexampleCheck1">Check me out</label>
+                    </div>
+                    <div class="row">
+                        &nbsp; &nbsp; <button type="submit" class="btn btn-primary btn-authenticate" >Authenticate</button> &nbsp; &nbsp; &nbsp; 
+                        <button type="submit" class="btn btn-primary btn-withdraw" disabled>Withdraw</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock content %}
