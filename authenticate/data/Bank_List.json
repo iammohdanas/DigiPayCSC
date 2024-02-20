@@ -1,0 +1,5674 @@
+[
+  {
+    "BankID": 1,
+    "BANK_NAME": "Axis Bank",
+    "ShortCode": "UTIB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 2,
+    "BANK_NAME": "Bank of Baroda",
+    "ShortCode": "BARB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 3,
+    "BANK_NAME": "Bank of India",
+    "ShortCode": "BKID",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 4,
+    "BANK_NAME": "Central Bank of India",
+    "ShortCode": "CBIN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 5,
+    "BANK_NAME": "Citibank",
+    "ShortCode": "CITI",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 6,
+    "BANK_NAME": "HDFC Bank",
+    "ShortCode": "HDFC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 7,
+    "BANK_NAME": "ICICI Bank",
+    "ShortCode": "ICIC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 8,
+    "BANK_NAME": "IDBI Bank",
+    "ShortCode": "IBKL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 9,
+    "BANK_NAME": "Indian Bank",
+    "ShortCode": "IDIB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 10,
+    "BANK_NAME": "Indian Overseas Bank",
+    "ShortCode": "IOBA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 11,
+    "BANK_NAME": "Punjab National Bank",
+    "ShortCode": "PUNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 12,
+    "BANK_NAME": "State Bank of Bikaner and Jaipur",
+    "ShortCode": "NULL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 13,
+    "BANK_NAME": "Union Bank of India",
+    "ShortCode": "UBIN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 14,
+    "BANK_NAME": "UCO Bank",
+    "ShortCode": "UCBA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 16,
+    "BANK_NAME": "Yes Bank",
+    "ShortCode": "YESB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 17,
+    "BANK_NAME": "Dena Bank",
+    "ShortCode": "BKDN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 18,
+    "BANK_NAME": "Abhyudaya Co-Op Bank",
+    "ShortCode": "ABHY",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 19,
+    "BANK_NAME": "Abu Dhabi Commercial Bank",
+    "ShortCode": "ADCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 20,
+    "BANK_NAME": "Allahabad Bank",
+    "ShortCode": "ALLA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 21,
+    "BANK_NAME": "Andhra Bank",
+    "ShortCode": "ANDB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 22,
+    "BANK_NAME": "Bank of America",
+    "ShortCode": "BOFA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 23,
+    "BANK_NAME": "Bank of Bahrain and Kuwait",
+    "ShortCode": "BBKM",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 24,
+    "BANK_NAME": "Bank of Ceylon",
+    "ShortCode": "BCEY",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 25,
+    "BANK_NAME": "Bank of Maharashtra",
+    "ShortCode": "MAHB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 26,
+    "BANK_NAME": "Bank Of Tokyo Mitsubishi Ufj Ltd",
+    "ShortCode": "BOTM",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 27,
+    "BANK_NAME": "Barclays Bank",
+    "ShortCode": "BARC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 28,
+    "BANK_NAME": "Bassein Catholic Co-Op Bank",
+    "ShortCode": "BACB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 29,
+    "BANK_NAME": "Bnp Paribas Bank",
+    "ShortCode": "BNPA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 30,
+    "BANK_NAME": "Canara Bank",
+    "ShortCode": "CNRB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 32,
+    "BANK_NAME": "Catholic Syrian Bank",
+    "ShortCode": "CSBK",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 33,
+    "BANK_NAME": "Chinatrust Commercial Bank",
+    "ShortCode": "CTCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 34,
+    "BANK_NAME": "Citizen Credit Co-Op Bank",
+    "ShortCode": "CCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 35,
+    "BANK_NAME": "City Union Bank",
+    "ShortCode": "CIUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 37,
+    "BANK_NAME": "Corporation Bank",
+    "ShortCode": "CORP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 38,
+    "BANK_NAME": "Credit Agricole Corporate And Investment Bank Calyon Bank",
+    "ShortCode": "CRLY",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 39,
+    "BANK_NAME": "DBS Bank",
+    "ShortCode": "DBSS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 41,
+    "BANK_NAME": "Deutsche Bank AG",
+    "ShortCode": "DEUT",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 42,
+    "BANK_NAME": "Development Credit Bank",
+    "ShortCode": "DCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 43,
+    "BANK_NAME": "Dhanlaxmi Bank",
+    "ShortCode": "DLXB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 44,
+    "BANK_NAME": "Deposit Insurance and Credit Guarantee Corporation",
+    "ShortCode": "DICG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 45,
+    "BANK_NAME": "Dombivli Nagari Sahakari Bank",
+    "ShortCode": "DNSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 46,
+    "BANK_NAME": "Firstrand Bank",
+    "ShortCode": "FIRN",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 47,
+    "BANK_NAME": "HSBC",
+    "ShortCode": "HSBC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 48,
+    "BANK_NAME": "IndusInd Bank",
+    "ShortCode": "INDB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 49,
+    "BANK_NAME": "ING Vysya Bank",
+    "ShortCode": "VYSA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 50,
+    "BANK_NAME": "Janakalyan Sahakari Bank",
+    "ShortCode": "JSBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 51,
+    "BANK_NAME": "Janata Sahakari Bank Pune",
+    "ShortCode": "JSBP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 52,
+    "BANK_NAME": "JP Morgan Chase Bank",
+    "ShortCode": "CHAS",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 53,
+    "BANK_NAME": "Kapole Co-Op Bank",
+    "ShortCode": "KCBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 54,
+    "BANK_NAME": "Karnataka Bank",
+    "ShortCode": "KARB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 55,
+    "BANK_NAME": "Karur Vysya Bank",
+    "ShortCode": "KVBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 56,
+    "BANK_NAME": "Kotak Mahindra Bank",
+    "ShortCode": "KKBK",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 57,
+    "BANK_NAME": "Mahanagar Co-Op Bank",
+    "ShortCode": "MCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 58,
+    "BANK_NAME": "Maharashtra State Co-Op Bank",
+    "ShortCode": "MSCI",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 59,
+    "BANK_NAME": "Mashreq Bank PSC",
+    "ShortCode": "MSHQ",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 60,
+    "BANK_NAME": "Mizuho Corporate Bank",
+    "ShortCode": "MHCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 61,
+    "BANK_NAME": "New India Co-Op Bank Ltd",
+    "ShortCode": "NICB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 62,
+    "BANK_NAME": "NKGSB Co-Op Bank",
+    "ShortCode": "NKGS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 63,
+    "BANK_NAME": "Nutan Nagarik Sahakari Bank",
+    "ShortCode": "NNSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 64,
+    "BANK_NAME": "Oman International Bank Saog",
+    "ShortCode": "OIBA",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 65,
+    "BANK_NAME": "Oriental Bank of Commerce",
+    "ShortCode": "ORBC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 66,
+    "BANK_NAME": "Parsik Janata Sahakari Bank",
+    "ShortCode": "PJSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 67,
+    "BANK_NAME": "Punjab And Maharashtra Co-Op Bank",
+    "ShortCode": "PMCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 68,
+    "BANK_NAME": "Punjab and Sind Bank",
+    "ShortCode": "PSIB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 69,
+    "BANK_NAME": "Rajkot Nagarik Sahakari Bank",
+    "ShortCode": "RNSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 70,
+    "BANK_NAME": "Reserve Bank of India",
+    "ShortCode": "RBIS",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 71,
+    "BANK_NAME": "Shinhan Bank",
+    "ShortCode": "SHBK",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 72,
+    "BANK_NAME": "Societe Generale Bank",
+    "ShortCode": "SOGE",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 73,
+    "BANK_NAME": "South Indian Bank",
+    "ShortCode": "SIBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 74,
+    "BANK_NAME": "Standard Chartered Bank",
+    "ShortCode": "SCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 75,
+    "BANK_NAME": "State Bank of Hyderabad",
+    "ShortCode": "NULL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 76,
+    "BANK_NAME": "State Bank of Mauritius",
+    "ShortCode": "STCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 77,
+    "BANK_NAME": "State Bank of Mysore",
+    "ShortCode": "NULL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 78,
+    "BANK_NAME": "State Bank of Travancore",
+    "ShortCode": "NULL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 79,
+    "BANK_NAME": "State Bank of Patiala",
+    "ShortCode": "NULL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 80,
+    "BANK_NAME": "Syndicate Bank",
+    "ShortCode": "SYNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 81,
+    "BANK_NAME": "Tamilnad Mercantile Bank",
+    "ShortCode": "TMBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 82,
+    "BANK_NAME": "Bank of Nova Scotia",
+    "ShortCode": "NOSC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 83,
+    "BANK_NAME": "Ahmedabad Mercantile Co-Op Bank",
+    "ShortCode": "AMCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 84,
+    "BANK_NAME": "Bharat Co-Op Bank Mumbai",
+    "ShortCode": "BCBM",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 85,
+    "BANK_NAME": "Cosmos Co-Op Bank",
+    "ShortCode": "COSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 86,
+    "BANK_NAME": "Federal Bank",
+    "ShortCode": "FDRL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 87,
+    "BANK_NAME": "Greater Bombay Co-Op Bank",
+    "ShortCode": "GBCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 88,
+    "BANK_NAME": "Jammu and Kashmir Bank",
+    "ShortCode": "JAKA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 89,
+    "BANK_NAME": "Kalupur Commercial Co-Op Bank",
+    "ShortCode": "KCCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 90,
+    "BANK_NAME": "Karnataka State Apex Co-Op Bank",
+    "ShortCode": "KSBC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 91,
+    "BANK_NAME": "Kalyan Janata Sahakari Bank",
+    "ShortCode": "KJSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 92,
+    "BANK_NAME": "Lakshmi Vilas Bank",
+    "ShortCode": "LAVB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 93,
+    "BANK_NAME": "Mehsana Urban Co-Op Bank",
+    "ShortCode": "MSNU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 94,
+    "BANK_NAME": "Nainital Bank",
+    "ShortCode": "NTBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 95,
+    "BANK_NAME": "The Ratnakar Bank Ltd",
+    "ShortCode": "RATN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 96,
+    "BANK_NAME": "Royal Bank of Scotland",
+    "ShortCode": "ABNA",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 97,
+    "BANK_NAME": "Saraswat Co-Op Bank",
+    "ShortCode": "SRCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 98,
+    "BANK_NAME": "Shamrao Vithal Co-Op Bank",
+    "ShortCode": "SVCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 99,
+    "BANK_NAME": "The Surat Peoples Co-Op Bank",
+    "ShortCode": "SPCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 100,
+    "BANK_NAME": "Thane Janata Sahakari Bank",
+    "ShortCode": "TJSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 101,
+    "BANK_NAME": "Tamilnadu State Apex Co-Op Bank",
+    "ShortCode": "TNSC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 102,
+    "BANK_NAME": "West Bengal State Co-Op Bank",
+    "ShortCode": "WBSC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 103,
+    "BANK_NAME": "Vijaya Bank",
+    "ShortCode": "VIJB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 108,
+    "BANK_NAME": "State Bank of India",
+    "ShortCode": "SBIN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 109,
+    "BANK_NAME": "A P Mahesh Co-Op Urban Bank Ltd",
+    "ShortCode": "APMC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 110,
+    "BANK_NAME": "Karad Urban Co-Op Bank",
+    "ShortCode": "KUCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 111,
+    "BANK_NAME": "Karnataka State Co-Op Apex Bank",
+    "ShortCode": "KSCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 112,
+    "BANK_NAME": "Nashik Merchants Co-Op Bank",
+    "ShortCode": "NMCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 113,
+    "BANK_NAME": "UBS AG Bank",
+    "ShortCode": "UBSW",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 114,
+    "BANK_NAME": "United Bank of India",
+    "ShortCode": "UTBI",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 115,
+    "BANK_NAME": "Kangra Co-Op Bank",
+    "ShortCode": "KANG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 116,
+    "BANK_NAME": "Kangra Central Co-Op Bank",
+    "ShortCode": "KACE",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 117,
+    "BANK_NAME": "Prathama Bank",
+    "ShortCode": "PRTH",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 119,
+    "BANK_NAME": "Chaitanya Godavari Grameena Bank",
+    "ShortCode": "ACGG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 120,
+    "BANK_NAME": "Allahabad UP Gramin Bank",
+    "ShortCode": "ALLG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Disabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 121,
+    "BANK_NAME": "Rushikulya Gramin Bank",
+    "ShortCode": "ANDG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 122,
+    "BANK_NAME": "Sharda Gramin Bank",
+    "ShortCode": "ASGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 123,
+    "BANK_NAME": "Nainital Almora Kshetriya Gramin Bank",
+    "ShortCode": "BARG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 124,
+    "BANK_NAME": "Baroda Rajasthan Gramin Bank",
+    "ShortCode": "BARR",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 125,
+    "BANK_NAME": "Baroda Uttar Pradesh Gramin Bank",
+    "ShortCode": "BARU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 126,
+    "BANK_NAME": "Baroda Gujarat Gramin Bank",
+    "ShortCode": "BGGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 127,
+    "BANK_NAME": "Jhabua Dhar Kshetriya Gramin Bank",
+    "ShortCode": "BJDG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 128,
+    "BANK_NAME": "Dena Gujarat Gramin Bank",
+    "ShortCode": "BKDD",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 129,
+    "BANK_NAME": "Durg Rajnandgaon Gramin Bank",
+    "ShortCode": "BKDR",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 130,
+    "BANK_NAME": "Baitarani Gramin Bank",
+    "ShortCode": "BKIB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 131,
+    "BANK_NAME": "Aryavart Gramin Bank",
+    "ShortCode": "BKIG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 133,
+    "BANK_NAME": "Wainganga Krishna Gramin Bank",
+    "ShortCode": "BWKG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 134,
+    "BANK_NAME": "Uttar Bihar Gramin Bank",
+    "ShortCode": "CBBB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 135,
+    "BANK_NAME": "Ballia Etawah Gramin Bank",
+    "ShortCode": "CBIG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 136,
+    "BANK_NAME": "Hadoti Kshetriya Gramin Bank",
+    "ShortCode": "CBIH",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 137,
+    "BANK_NAME": "Surguja Kshetriya Gramin Bank",
+    "ShortCode": "CKGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 138,
+    "BANK_NAME": "South Malabar Gramin Bank",
+    "ShortCode": "CMGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 139,
+    "BANK_NAME": "Chickmangalur Kodagu Gramin Bank",
+    "ShortCode": "CORG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 140,
+    "BANK_NAME": "Pragathi Gramin Bank",
+    "ShortCode": "CPGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 141,
+    "BANK_NAME": "Shreyas Gramin Bank",
+    "ShortCode": "CSGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 142,
+    "BANK_NAME": "Satpura Narmada Kshetriya Gramin Bank",
+    "ShortCode": "CSUG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 143,
+    "BANK_NAME": "Uttar Banga Kshetriya Gramin Bank",
+    "ShortCode": "CUKG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 144,
+    "BANK_NAME": "Vidharbha Kshetriya Gramin Bank",
+    "ShortCode": "CVAG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 145,
+    "BANK_NAME": "Madhya Bharat Gramin Bank",
+    "ShortCode": "FBIG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 146,
+    "BANK_NAME": "Gurgaon Gramin Bank",
+    "ShortCode": "GGBK",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 147,
+    "BANK_NAME": "Malwa Gramin Bank",
+    "ShortCode": "HDFG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 148,
+    "BANK_NAME": "Mewar Anchalik Gramin Bank",
+    "ShortCode": "ICIG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 149,
+    "BANK_NAME": "Pallavan Grama Bank",
+    "ShortCode": "IDIG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 150,
+    "BANK_NAME": "Neelachal Gramya Bank",
+    "ShortCode": "INGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 151,
+    "BANK_NAME": "Pandyan Gramin Bank",
+    "ShortCode": "IOBG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 152,
+    "BANK_NAME": "Puduvai Bharathiar Grama Bank",
+    "ShortCode": "IPBG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 153,
+    "BANK_NAME": "J&K Grameen Bank",
+    "ShortCode": "JAKG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 154,
+    "BANK_NAME": "Maharashtra Gramin Bank",
+    "ShortCode": "MAHG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 156,
+    "BANK_NAME": "Rajasthan Gramin Bank",
+    "ShortCode": "PRGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 157,
+    "BANK_NAME": "Sarva UP Gramin Bank",
+    "ShortCode": "PSGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 158,
+    "BANK_NAME": "Sutlej Gramin Bank",
+    "ShortCode": "PSIG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 159,
+    "BANK_NAME": "Himachal Gramin Bank",
+    "ShortCode": "PUHG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 160,
+    "BANK_NAME": "Madhya Bihar Gramin Bank",
+    "ShortCode": "PUNG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 161,
+    "BANK_NAME": "Sarva Haryana Gramin Bank",
+    "ShortCode": "PUNH",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 162,
+    "BANK_NAME": "Andhra Pradesh Grameena Vikas Bank",
+    "ShortCode": "APGV",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 163,
+    "BANK_NAME": "Arunachal Pradesh Rural Bank",
+    "ShortCode": "SBAP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 164,
+    "BANK_NAME": "MG Baroda Gramin Bank",
+    "ShortCode": "SBBG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 165,
+    "BANK_NAME": "Telangana Grameena Bank",
+    "ShortCode": "SBHG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 166,
+    "BANK_NAME": "Chhattisgarh Gramin Bank",
+    "ShortCode": "SBIC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 167,
+    "BANK_NAME": "Ellaqui Dehati Bank",
+    "ShortCode": "SBIE",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 168,
+    "BANK_NAME": "Mizoram Rural Bank",
+    "ShortCode": "SBIG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 169,
+    "BANK_NAME": "Jharkhand Gramin Bank",
+    "ShortCode": "SBIJ",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 170,
+    "BANK_NAME": "Kaveri Grameena Bank",
+    "ShortCode": "SBMG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 171,
+    "BANK_NAME": "Vidisha Bhopal Kshetriya Gramin Bank",
+    "ShortCode": "SBOG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 172,
+    "BANK_NAME": "Krishna Gramin Bank",
+    "ShortCode": "SKRG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 173,
+    "BANK_NAME": "Langpi Dehangi Rural Bank",
+    "ShortCode": "SLDR",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 174,
+    "BANK_NAME": "Meghalaya Rural Bank",
+    "ShortCode": "SMEG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 176,
+    "BANK_NAME": "Parvatiya Gramin Bank",
+    "ShortCode": "SPGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 177,
+    "BANK_NAME": "Purvanchal Gramin Bank",
+    "ShortCode": "SRGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 179,
+    "BANK_NAME": "Saurashtra Gramin Bank",
+    "ShortCode": "SSGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 180,
+    "BANK_NAME": "Samastipur Kshetriya Gramin Bank",
+    "ShortCode": "SSKG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 181,
+    "BANK_NAME": "Uttarakhand Gramin Bank",
+    "ShortCode": "SUTG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 182,
+    "BANK_NAME": "Utkal Gramya Bank",
+    "ShortCode": "SUUG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 184,
+    "BANK_NAME": "Karnataka Vikas Grameena Bank",
+    "ShortCode": "KVGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 185,
+    "BANK_NAME": "Andhra Pragathi Grameena Bank",
+    "ShortCode": "APGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 186,
+    "BANK_NAME": "North Malabar Gramin Bank",
+    "ShortCode": "SYNM",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 187,
+    "BANK_NAME": "Assam Gramin Vikash Bank",
+    "ShortCode": "UASG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 188,
+    "BANK_NAME": "Kashi Gomati Samyut Gramin Bank",
+    "ShortCode": "UBKG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 189,
+    "BANK_NAME": "Mahakaushal Kshetriya Gramin Bank",
+    "ShortCode": "UCBG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 190,
+    "BANK_NAME": "Bihar Kshetriya Gramin Bank",
+    "ShortCode": "UCBK",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 191,
+    "BANK_NAME": "Kalinga Gramya Bank",
+    "ShortCode": "UCKG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 192,
+    "BANK_NAME": "Jaipur Thar Gramin Bank",
+    "ShortCode": "UJTG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 193,
+    "BANK_NAME": "Paschim Banga Gramin Bank",
+    "ShortCode": "UPBG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 194,
+    "BANK_NAME": "Rewa Sidhi Gramin Bank",
+    "ShortCode": "URSG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 195,
+    "BANK_NAME": "Bangiya Gramin Bank",
+    "ShortCode": "UTBB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 196,
+    "BANK_NAME": "Manipur Rural Bank",
+    "ShortCode": "UTBG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 197,
+    "BANK_NAME": "Tripura Gramin Bank",
+    "ShortCode": "UTGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 198,
+    "BANK_NAME": "Visveshwaraya Gramin Bank",
+    "ShortCode": "VIJG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 199,
+    "BANK_NAME": "Swarna Bharat Trust Cyber Grameen",
+    "ShortCode": "SBCG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 200,
+    "BANK_NAME": "Neft Malwa Gramin Bank",
+    "ShortCode": "NMGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 201,
+    "BANK_NAME": "ABN Amro Bank Credit Card",
+    "ShortCode": "ABCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 202,
+    "BANK_NAME": "Barclays Credit Card",
+    "ShortCode": "BACC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 203,
+    "BANK_NAME": "Citibank Credit Card",
+    "ShortCode": "CICC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 204,
+    "BANK_NAME": "HDFC Bank Credit Card",
+    "ShortCode": "HDCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 205,
+    "BANK_NAME": "HSBC Credit Card",
+    "ShortCode": "HSCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 206,
+    "BANK_NAME": "ICICI Bank Credit Card",
+    "ShortCode": "ICCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 207,
+    "BANK_NAME": "Kotak Mahindra Credit Card",
+    "ShortCode": "KKCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 208,
+    "BANK_NAME": "State Bank of India Credit Card",
+    "ShortCode": "SBCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 209,
+    "BANK_NAME": "Standard Chartered Credit Card",
+    "ShortCode": "SCCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 210,
+    "BANK_NAME": "UTI Axis Bank Credit Card",
+    "ShortCode": "UTCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 211,
+    "BANK_NAME": "Vijaya Credit Card",
+    "ShortCode": "VICC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 212,
+    "BANK_NAME": "American Express Credit Card",
+    "ShortCode": "AMEX",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 213,
+    "BANK_NAME": "Janaseva Sahakari Bank",
+    "ShortCode": "JANA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 214,
+    "BANK_NAME": "Kallappanna Awade Ichalkaranji Janata Sahkari Bank",
+    "ShortCode": "KAIJ",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 215,
+    "BANK_NAME": "Pandharpur Merchant Co-Op Bank",
+    "ShortCode": "ICIP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 216,
+    "BANK_NAME": "The Gayatri Co Operative Urban Bank Ltd",
+    "ShortCode": "HDGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 217,
+    "BANK_NAME": "Pochampally Co-Op Urban Bank",
+    "ShortCode": "HDFP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 218,
+    "BANK_NAME": "Dr Annasaheb Chougule Urban Co-Op Bank",
+    "ShortCode": "HDFA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 219,
+    "BANK_NAME": "Surat District Co-Op Bank",
+    "ShortCode": "SDCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 220,
+    "BANK_NAME": "Suco Souharda Sahakari Bank",
+    "ShortCode": "HDFS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 221,
+    "BANK_NAME": "Pune Peoples Co-Op Bank",
+    "ShortCode": "IBKP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 222,
+    "BANK_NAME": "Shri Arihant Co-Op Bank",
+    "ShortCode": "ICSA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 223,
+    "BANK_NAME": "The National Co-Op Bank Ltd",
+    "ShortCode": "KKBN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 224,
+    "BANK_NAME": "Parshwanath Co-Op Bank",
+    "ShortCode": "HDPA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 225,
+    "BANK_NAME": "Apna Sahakari Bank",
+    "ShortCode": "ASBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 226,
+    "BANK_NAME": "Jalore Nagrik Sahakari Bank",
+    "ShortCode": "HDJC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 227,
+    "BANK_NAME": "Varachha Co-Op Bank",
+    "ShortCode": "VARA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 228,
+    "BANK_NAME": "Janata Co-Op Bank Malegaon",
+    "ShortCode": "HDFJ",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 229,
+    "BANK_NAME": "Shri Basaveshwar Sahakari Bank Niyamit Bagalkot",
+    "ShortCode": "ICIS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 230,
+    "BANK_NAME": "Shirpur Peoples Co-Op Bank",
+    "ShortCode": "KKBS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 231,
+    "BANK_NAME": "Bhartiya Mahila Bank",
+    "ShortCode": "NULL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 232,
+    "BANK_NAME": "Kerala Gramin Bank",
+    "ShortCode": "KLGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 233,
+    "BANK_NAME": "Pragathi Krishna Gramin Bank",
+    "ShortCode": "PKGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 234,
+    "BANK_NAME": "Yadagiri Lakshmi Narasimha Swamy Co-Op Urban Bank",
+    "ShortCode": "YESP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 235,
+    "BANK_NAME": "Hutatma Sahakari Bank",
+    "ShortCode": "ICIH",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 236,
+    "BANK_NAME": "Himachal Pradesh State Co-Op Bank",
+    "ShortCode": "HPSC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 237,
+    "BANK_NAME": "Adarsh Urban Co-Op Bank Hyderabad",
+    "ShortCode": "ICIA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 238,
+    "BANK_NAME": "Mayani Urban Co-Op Bank",
+    "ShortCode": "ICIM",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 239,
+    "BANK_NAME": "Pandharpur Urban Co-Op Bank",
+    "ShortCode": "ICPU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 240,
+    "BANK_NAME": "Vananchal Gramin Bank",
+    "ShortCode": "SVAG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 241,
+    "BANK_NAME": "Punjab Gramin Bank",
+    "ShortCode": "PPGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 242,
+    "BANK_NAME": "Shri Veershaiv Co-Op Bank Ltd",
+    "ShortCode": "SVSH",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 243,
+    "BANK_NAME": "Thrissur District Central Co-Op Bank",
+    "ShortCode": "TDCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 244,
+    "BANK_NAME": "Vishweshwar Sahakari Bank Ltd",
+    "ShortCode": "VSBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 245,
+    "BANK_NAME": "Raipur Urban Mercantile Co-Op Bank",
+    "ShortCode": "HDRU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 246,
+    "BANK_NAME": "Zila Sahkari Bank",
+    "ShortCode": "ICZS",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 247,
+    "BANK_NAME": "Titwala",
+    "ShortCode": "SBIT",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 248,
+    "BANK_NAME": "Dombivli East",
+    "ShortCode": "SBDO",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 250,
+    "BANK_NAME": "MGCB Main",
+    "ShortCode": "WBMG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 251,
+    "BANK_NAME": "Sindhudurg District Central Co-Op Bank",
+    "ShortCode": "HDSI",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 252,
+    "BANK_NAME": "Hamirpur District Co-Op Bank Mahoba",
+    "ShortCode": "ICMA",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 253,
+    "BANK_NAME": "Shivalik Mercantile Co-Op Bank",
+    "ShortCode": "SMCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 254,
+    "BANK_NAME": "Hasti Co-Op Bank",
+    "ShortCode": "HCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 255,
+    "BANK_NAME": "Rajgurunagar Sahakari Bank",
+    "ShortCode": "RSBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 256,
+    "BANK_NAME": "Bandhan Bank",
+    "ShortCode": "BDBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 257,
+    "BANK_NAME": "Dapoli Urban Co-Op Bank",
+    "ShortCode": "IBDU",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 258,
+    "BANK_NAME": "Gujarat State Co-Op Bank",
+    "ShortCode": "GSCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 259,
+    "BANK_NAME": "Municipal Co-Op Bank",
+    "ShortCode": "MUBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 260,
+    "BANK_NAME": "Rajapur Urban Co-Op Bank",
+    "ShortCode": "ICRU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 261,
+    "BANK_NAME": "Ahmedabad District Central Co-Op Bank",
+    "ShortCode": "GSAD",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 262,
+    "BANK_NAME": "IDFC Bank",
+    "ShortCode": "IDFB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 263,
+    "BANK_NAME": "Rajasthan Marudhara Gramin Bank",
+    "ShortCode": "SBRM",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 264,
+    "BANK_NAME": "Suvarnayug Sahakari Bank",
+    "ShortCode": "SUSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 265,
+    "BANK_NAME": "Sutex Co-Op Bank",
+    "ShortCode": "SUTB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 266,
+    "BANK_NAME": "Nagar Sahkari Bank",
+    "ShortCode": "NASB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 267,
+    "BANK_NAME": "Irinjalakuda Town Co-Op Bank",
+    "ShortCode": "IRTO",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 268,
+    "BANK_NAME": "Shivajirao Bhosale Sahakari Bank",
+    "ShortCode": "SHBH",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 269,
+    "BANK_NAME": "Thane Bharat Sahakari Bank",
+    "ShortCode": "TBSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 270,
+    "BANK_NAME": "Maratha Co-Op Bank",
+    "ShortCode": "MCOB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 271,
+    "BANK_NAME": "Pithoragarh Jila Sahkari Bank",
+    "ShortCode": "IBJS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 272,
+    "BANK_NAME": "Pune Cantonment Sahakari Bank",
+    "ShortCode": "PCSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 273,
+    "BANK_NAME": "Uttarakhand Gramin Bank",
+    "ShortCode": "UTTB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 274,
+    "BANK_NAME": "The Malad Sahakari Bank Ltd",
+    "ShortCode": "MASB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 275,
+    "BANK_NAME": "Shree Mahalaxmi Co-Op Bank",
+    "ShortCode": "SML",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 276,
+    "BANK_NAME": "Moradabad Zila Sahkari Bank",
+    "ShortCode": "MZSB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 277,
+    "BANK_NAME": "Siwan Central Co-Op Bank",
+    "ShortCode": "SCCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 278,
+    "BANK_NAME": "Madhyanchal Gramin Bank",
+    "ShortCode": "MGBS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 279,
+    "BANK_NAME": "Triveni Kshetriya Gramin Bank",
+    "ShortCode": "TKGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 280,
+    "BANK_NAME": "The Ratnakar Bank Credit Card",
+    "ShortCode": "RBCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 281,
+    "BANK_NAME": "Punjab National Bank Credit Card",
+    "ShortCode": "PBCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 283,
+    "BANK_NAME": "IndusInd Bank Credit Card",
+    "ShortCode": "IBCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 284,
+    "BANK_NAME": "Canara Bank Credit Card",
+    "ShortCode": "CBCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 285,
+    "BANK_NAME": "IDBI Bank Credit Card",
+    "ShortCode": "IDCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 286,
+    "BANK_NAME": "Andhra Bank Credit Card",
+    "ShortCode": "ANCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 287,
+    "BANK_NAME": "Bank Of India Credit Card",
+    "ShortCode": "BKCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 288,
+    "BANK_NAME": "Bank Of Baroda Credit Card",
+    "ShortCode": "BABC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 289,
+    "BANK_NAME": "Odisha Gramya Bank",
+    "ShortCode": "IOGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 290,
+    "BANK_NAME": "The Udaipur Mahila Samridhi Urban Co-Op Bank Ltd",
+    "ShortCode": "UMSC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 291,
+    "BANK_NAME": "Delhi State Co-Op Bank",
+    "ShortCode": "DSCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 292,
+    "BANK_NAME": "Citizen Co-Op Bank Noida",
+    "ShortCode": "COBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 293,
+    "BANK_NAME": "Chikhli Urban Co-Op Bank",
+    "ShortCode": "CUCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 294,
+    "BANK_NAME": "Poornawadi Nagrik Sahakari Bank",
+    "ShortCode": "PNSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 295,
+    "BANK_NAME": "Ahmednagar Mer Co-Op Bank",
+    "ShortCode": "AGBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 296,
+    "BANK_NAME": "Pavana Sahakari Bank",
+    "ShortCode": "PSBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 297,
+    "BANK_NAME": "Fingrowth Co-Op Bank Ltd",
+    "ShortCode": "UCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 298,
+    "BANK_NAME": "Airtel Payments Bank",
+    "ShortCode": "AIRP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 299,
+    "BANK_NAME": "Jalgaon Peoples Co-Op Bank",
+    "ShortCode": "JPCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 300,
+    "BANK_NAME": "Vasai Vikas Co-Op Bank",
+    "ShortCode": "VVSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 301,
+    "BANK_NAME": "Equitas Small Finance Bank",
+    "ShortCode": "ESFB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 302,
+    "BANK_NAME": "Noble Co-Op Bank",
+    "ShortCode": "NCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 303,
+    "BANK_NAME": "Jalaun District Co-Op Bank",
+    "ShortCode": "JDCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 304,
+    "BANK_NAME": "Vaidyanath Urban Co-Op Bank",
+    "ShortCode": "VUCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 305,
+    "BANK_NAME": "Sapthagiri Grameena Bank",
+    "ShortCode": "SGCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 306,
+    "BANK_NAME": "Ambarnath Jai Hind Co-Op Bank",
+    "ShortCode": "AJHB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 307,
+    "BANK_NAME": "Seva Vikas Co-Op Bank",
+    "ShortCode": "SVBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 308,
+    "BANK_NAME": "Pachora Peoples Co-Op Bank",
+    "ShortCode": "PPCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 309,
+    "BANK_NAME": "India Post Payments Bank",
+    "ShortCode": "IPOS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 310,
+    "BANK_NAME": "Bombay Mercantile Co-Op Bank",
+    "ShortCode": "BMCL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 311,
+    "BANK_NAME": "Malda District Central Co-Op Bank",
+    "ShortCode": "MDCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 312,
+    "BANK_NAME": "Ujjivan Small Finance Bank",
+    "ShortCode": "UJVN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 313,
+    "BANK_NAME": "Jamia Co-Op Bank",
+    "ShortCode": "JCBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 314,
+    "BANK_NAME": "Integral Urban Co-Op Bank",
+    "ShortCode": "IUCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 315,
+    "BANK_NAME": "ESAF Small Finance Bank",
+    "ShortCode": "ESMF",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 316,
+    "BANK_NAME": "Mogaveera Co-Op Bank",
+    "ShortCode": "MGCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 317,
+    "BANK_NAME": "Akhand Anand Co-Op Bank",
+    "ShortCode": "AACB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 318,
+    "BANK_NAME": "Sardar Bhiladwala Pardi Peoples Co-Op Bank",
+    "ShortCode": "SBPP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 319,
+    "BANK_NAME": "Manvi Pattana Souharda Sahakari Bank",
+    "ShortCode": "MPSS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 320,
+    "BANK_NAME": "Shree Sharada Sahakari Bank",
+    "ShortCode": "SSSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 321,
+    "BANK_NAME": "Aircel Smart Money",
+    "ShortCode": "ASML",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 322,
+    "BANK_NAME": "Mumbai District Central Co-Op Bank",
+    "ShortCode": "DCCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 323,
+    "BANK_NAME": "The Thane District Central Co-Op Bank",
+    "ShortCode": "TCCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 324,
+    "BANK_NAME": "Zoroastrian Co-Op Bank",
+    "ShortCode": "ZCBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 325,
+    "BANK_NAME": "Saurashtra Co-Op Bank",
+    "ShortCode": "SSCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 326,
+    "BANK_NAME": "Kurmanchal Nagar Sahkari Bank",
+    "ShortCode": "KNSB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 327,
+    "BANK_NAME": "Suryoday Small Finance Bank",
+    "ShortCode": "SURY",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 328,
+    "BANK_NAME": "Akola Janata Commercial Co-Op Bank",
+    "ShortCode": "AKJB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 329,
+    "BANK_NAME": "Sahebrao Deshmukh Co-Op Bank",
+    "ShortCode": "SAHE",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 330,
+    "BANK_NAME": "Shri Chhatrapati Rajarshi Shahu Urban Co-Op Bank",
+    "ShortCode": "CRUB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 331,
+    "BANK_NAME": "Akola District Central Co-Op Bank",
+    "ShortCode": "ADCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 332,
+    "BANK_NAME": "Hindusthan Co-Op Bank",
+    "ShortCode": "THCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 333,
+    "BANK_NAME": "Sadhana Sahakari Bank",
+    "ShortCode": "SSBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 334,
+    "BANK_NAME": "Sabarkantha District Central Co-Op Bank",
+    "ShortCode": "SDCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 335,
+    "BANK_NAME": "Sharad Sahakari Bank Manchar",
+    "ShortCode": "SSBM",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 336,
+    "BANK_NAME": "Udaipur Urban Co-Op Bank",
+    "ShortCode": "UUCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 337,
+    "BANK_NAME": "Vikas Souharda Co-Op Bank",
+    "ShortCode": "VSCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 338,
+    "BANK_NAME": "Priyadarshani Nagari Sahakari Bank",
+    "ShortCode": "PNSL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 339,
+    "BANK_NAME": "Kaira District Central Co-Op Bank",
+    "ShortCode": "KAIB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 340,
+    "BANK_NAME": "Murshidabad District Central Co-Op Bank",
+    "ShortCode": "MCCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 341,
+    "BANK_NAME": "Kottayam Co-Op Urban Bank",
+    "ShortCode": "KCUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 342,
+    "BANK_NAME": "Panipat Urban Co-Op Bank",
+    "ShortCode": "PUCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 343,
+    "BANK_NAME": "Telangana State Co-Op Apex Bank",
+    "ShortCode": "TSAB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 344,
+    "BANK_NAME": "Assam Co-Op Apex Bank",
+    "ShortCode": "ACAB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 345,
+    "BANK_NAME": "Paytm Payments Bank",
+    "ShortCode": "PYTM",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 346,
+    "BANK_NAME": "Surat National Co-Op Bank",
+    "ShortCode": "SUNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 347,
+    "BANK_NAME": "FINO Payments Bank",
+    "ShortCode": "FINO",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 348,
+    "BANK_NAME": "Narmada Malwa Gramin Bank",
+    "ShortCode": "MRGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 349,
+    "BANK_NAME": "Markandey Nagari Sahakari Bank",
+    "ShortCode": "MSBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 350,
+    "BANK_NAME": "Bijnor Urban Co-Op Bank",
+    "ShortCode": "BCBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 351,
+    "BANK_NAME": "Adarsh Mahila Mercantile Co-Op Bank",
+    "ShortCode": "AMMC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 352,
+    "BANK_NAME": "Adarsh Co-Op Bank Rajasthan",
+    "ShortCode": "ACBR",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 353,
+    "BANK_NAME": "The Baramati Sahakari Bank Ltd",
+    "ShortCode": "BARA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 354,
+    "BANK_NAME": "Jalna Merchant Co-Op Bank",
+    "ShortCode": "JMBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 355,
+    "BANK_NAME": "Kanaka Mahalakshmi Co-Op Bank",
+    "ShortCode": "KMCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 356,
+    "BANK_NAME": "Lokmangal Co-Op Bank",
+    "ShortCode": "LCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 357,
+    "BANK_NAME": "Odisha State Co-Op Bank",
+    "ShortCode": "ORCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 358,
+    "BANK_NAME": "Prime Co-Op Bank Ltd",
+    "ShortCode": "PMEC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 359,
+    "BANK_NAME": "Solapur Janata Sahakari Bank",
+    "ShortCode": "SJSB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 360,
+    "BANK_NAME": "Raigad District Central Co-Op Bank",
+    "ShortCode": "TRDC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 361,
+    "BANK_NAME": "Sangli District Central Co-Op Bank",
+    "ShortCode": "ISDC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 362,
+    "BANK_NAME": "Urban Co-Op Bank Siddharthanagar",
+    "ShortCode": "UCBS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 363,
+    "BANK_NAME": "Zila Sahakari Bank Lucknow",
+    "ShortCode": "ZSBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 364,
+    "BANK_NAME": "AU Small Finance Bank",
+    "ShortCode": "AUBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 365,
+    "BANK_NAME": "District Co-Op Bank Agra",
+    "ShortCode": "AGCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 366,
+    "BANK_NAME": "Janata Sahakari Bank Osmanabad",
+    "ShortCode": "OJSB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 367,
+    "BANK_NAME": "Rajarshi Shahu Sah Bank Pune",
+    "ShortCode": "CRBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 368,
+    "BANK_NAME": "Sant Sopankaka Sahakari Bank Saswad",
+    "ShortCode": "SSSD",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 369,
+    "BANK_NAME": "Deccan Merchants Co-Op Bank",
+    "ShortCode": "DMCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 370,
+    "BANK_NAME": "Nanded Disctrict Central Co-Op Bank",
+    "ShortCode": "NDCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 371,
+    "BANK_NAME": "Bhagalpur Central Co-Op Bank",
+    "ShortCode": "BCCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 372,
+    "BANK_NAME": "Almora Urban Co-Op Bank",
+    "ShortCode": "AUCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 373,
+    "BANK_NAME": "Zila Sahakari Bank Haridwar",
+    "ShortCode": "ZSBH",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 374,
+    "BANK_NAME": "Etah District Co-Op bank",
+    "ShortCode": "EDCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 375,
+    "BANK_NAME": "Andhra Pradesh State Co-Op Bank",
+    "ShortCode": "APBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 376,
+    "BANK_NAME": "Jharkhand State Co-Op Bank",
+    "ShortCode": "JSCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 377,
+    "BANK_NAME": "Sangamner Merchant Co-Op Bank",
+    "ShortCode": "TSMC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 378,
+    "BANK_NAME": "The Satara District Central Co-Op Bank Ltd",
+    "ShortCode": "SDCE",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 379,
+    "BANK_NAME": "Pune District Central Co-Op Bank",
+    "ShortCode": "PDCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 380,
+    "BANK_NAME": "The Khamgaon Urban Co-Op Bank Ltd",
+    "ShortCode": "KUCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 381,
+    "BANK_NAME": "Chartered Sahakari Bank Niyamitha",
+    "ShortCode": "CSBN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 382,
+    "BANK_NAME": "The Gandhinagar Urban Co-Op Bank Ltd",
+    "ShortCode": "TGUC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 383,
+    "BANK_NAME": "Valsad District Central Co-Op Bank Ltd",
+    "ShortCode": "VDCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 384,
+    "BANK_NAME": "Jijamata Mahila Sah Bank Ltd Pune",
+    "ShortCode": "CJMS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 385,
+    "BANK_NAME": "Capital Small Finance Bank",
+    "ShortCode": "CLBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 386,
+    "BANK_NAME": "The Muslim Co-Op Bank Ltd",
+    "ShortCode": "TMCO",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 387,
+    "BANK_NAME": "The Gandhinagar Nagrik Co-Op Bank Ltd",
+    "ShortCode": "TGNC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 388,
+    "BANK_NAME": "The Rajasthan State Co-Op Bank Ltd",
+    "ShortCode": "RSCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 389,
+    "BANK_NAME": "Ratnagiri District Central Co-Op Bank Ltd",
+    "ShortCode": "RDCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 390,
+    "BANK_NAME": "Jila Sahakari Kendriya Bank Khandwa",
+    "ShortCode": "MPDC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 391,
+    "BANK_NAME": "Jila Sahakari Kendriya Bank Maryadit Rajnandgaon",
+    "ShortCode": "SJSD",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 392,
+    "BANK_NAME": "Kokan Mercantile Co-Op Bank Ltd",
+    "ShortCode": "KKCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 393,
+    "BANK_NAME": "Annasaheb Savant Co-Op Urban Bank",
+    "ShortCode": "AHAD",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 394,
+    "BANK_NAME": "Prerana Co-Op Bank Ltd",
+    "ShortCode": "PCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 395,
+    "BANK_NAME": "The Chembur Nagarik Sahakari Bank Ltd",
+    "ShortCode": "CNSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 396,
+    "BANK_NAME": "The Bhagyodaya Co-Op Bank Ltd",
+    "ShortCode": "TBCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 397,
+    "BANK_NAME": "Saibaba Nagari Sahakari Bank Ltd",
+    "ShortCode": "SSNS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 398,
+    "BANK_NAME": "Central Madhya Pradesh Gramin Bank",
+    "ShortCode": "CMPG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 399,
+    "BANK_NAME": "Jio Payments Bank Ltd",
+    "ShortCode": "JIOP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 400,
+    "BANK_NAME": "The Co-Op Bank Of Rajkot Gandhigram",
+    "ShortCode": "CBOR",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 401,
+    "BANK_NAME": "Vijay Commercial Co-Op Bank",
+    "ShortCode": "VCCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 402,
+    "BANK_NAME": "Samarth Sahakari Bank Ltd",
+    "ShortCode": "SMRT",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 403,
+    "BANK_NAME": "Khalilabad Nagar Sah Bank Semariawa",
+    "ShortCode": "KHBK",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 404,
+    "BANK_NAME": "Zila Sahakari Bank Ltd Rampur",
+    "ShortCode": "RAMP",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 405,
+    "BANK_NAME": "Zila Sahakari Bank Ltd Moradabad",
+    "ShortCode": "MORD",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 406,
+    "BANK_NAME": "Narmada Jhabua Gramin Bank",
+    "ShortCode": "NJGB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 407,
+    "BANK_NAME": "Home Credit Finance Bank",
+    "ShortCode": "HCFB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 408,
+    "BANK_NAME": "DCB Bank",
+    "ShortCode": "DCBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 409,
+    "BANK_NAME": "Bajaj Finance Bank",
+    "ShortCode": "BFBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 410,
+    "BANK_NAME": "Rae Bareli District Co-Op Bank Ltd",
+    "ShortCode": "RBDC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 411,
+    "BANK_NAME": "Karnala Nagari Sahakari Bank",
+    "ShortCode": "KNBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 412,
+    "BANK_NAME": "Meghalaya Co-Op Apex Bank",
+    "ShortCode": "MCAB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 413,
+    "BANK_NAME": "Bharuch District Central Co-Op Bank Ltd",
+    "ShortCode": "BDCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 414,
+    "BANK_NAME": "Gopinath Patil Parsik Janata Sahakari Bank Ltd",
+    "ShortCode": "GPPJ",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 415,
+    "BANK_NAME": "Rbl Bank Limited",
+    "ShortCode": "RBLL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 416,
+    "BANK_NAME": "Aditya Birla Idea Payments Bank",
+    "ShortCode": "ABPB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 417,
+    "BANK_NAME": "Indrayani Co-Op Bank Ltd",
+    "ShortCode": "ICBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 418,
+    "BANK_NAME": "Contai Co-Op Bank Ltd",
+    "ShortCode": "CBLT",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 419,
+    "BANK_NAME": "The Punjab State Co-Op Bank",
+    "ShortCode": "PSCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 420,
+    "BANK_NAME": "Kolhapur Mahila Sahakari Bank Ltd",
+    "ShortCode": "CKMB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 421,
+    "BANK_NAME": "The Chandigarh State Co-Op Bank Ltd",
+    "ShortCode": "CSCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 422,
+    "BANK_NAME": "The Villupuram District Central Co-Op Bank Ltd",
+    "ShortCode": "VDCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 423,
+    "BANK_NAME": "Uttar Pradesh State Co-Op Bank Ltd",
+    "ShortCode": "UPSC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 424,
+    "BANK_NAME": "The Ajara Urban Co-Op Bank Ltd",
+    "ShortCode": "AUBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 426,
+    "BANK_NAME": "Samata Co-Op Development Bank",
+    "ShortCode": "SAMA",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 427,
+    "BANK_NAME": "Bhagini Nivedita Sahakari Bank Ltd",
+    "ShortCode": "NBNK",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 428,
+    "BANK_NAME": "Model Co-Op Bank Ltd",
+    "ShortCode": "MODE",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 429,
+    "BANK_NAME": "The Satara Sahakari Bank Ltd",
+    "ShortCode": "TSSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 430,
+    "BANK_NAME": "The Mehsana Nagrik Sahakari Bank Ltd",
+    "ShortCode": "MNSB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 431,
+    "BANK_NAME": "Tehri Garhwal Zila Sahakari Bank Ltd",
+    "ShortCode": "TGZS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 432,
+    "BANK_NAME": "Utkarsh Small Finance Bank",
+    "ShortCode": "UTKS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 433,
+    "BANK_NAME": "Shivajirao Bhosale Sahakari Bank Ltd",
+    "ShortCode": "NULL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 435,
+    "BANK_NAME": "Shahjahanpur District Central Co-Op Bank Ltd",
+    "ShortCode": "SDDB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 436,
+    "BANK_NAME": "The Kolhapur Urban Co-Op Bank Ltd Kolhapur",
+    "ShortCode": "KUBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 437,
+    "BANK_NAME": "Uttar Daudpur Samabay Krishi Unnayan Samity Ltd",
+    "ShortCode": "UDSK",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 438,
+    "BANK_NAME": "Durgapur Steel Peoples Co-Op Bank Ltd",
+    "ShortCode": "DURG",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 439,
+    "BANK_NAME": "The Sitamarhi Central Co-Op Bank",
+    "ShortCode": "ISCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 440,
+    "BANK_NAME": "Shree Kadi Nagarik Sahakari Bank Ltd",
+    "ShortCode": "KNBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 441,
+    "BANK_NAME": "The Ahmednagar District Central Co-Op Bank Ltd",
+    "ShortCode": "ACCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 442,
+    "BANK_NAME": "Sardargunj Mercantile Co-Op Bank Ltd",
+    "ShortCode": "SSMC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 443,
+    "BANK_NAME": "Himatnagar Nagrik Sahakari Bank Ltd",
+    "ShortCode": "HNSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 444,
+    "BANK_NAME": "Pali Urban Co-Op Bank Ltd",
+    "ShortCode": "CPUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 445,
+    "BANK_NAME": "Janata Sahakari Bank Ltd Ajara",
+    "ShortCode": "LJSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 446,
+    "BANK_NAME": "Dr.Appashab urf Sa.Re.Patil Jasingpur Udgaon Sahakari Bank Ltd,Jaysingpur",
+    "ShortCode": "JUSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 447,
+    "BANK_NAME": "The Ranuj Nagrik Sahakari Bank Ltd",
+    "ShortCode": "RANU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 448,
+    "BANK_NAME": "Sandur Pattana Souharda Sahakari Bank Ltd",
+    "ShortCode": "SPSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 449,
+    "BANK_NAME": "Nirmal Urban Co-Op Bank Nagpur",
+    "ShortCode": "CNBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 450,
+    "BANK_NAME": "The Mangalore Catholic Co-Op Bank Ltd",
+    "ShortCode": "TMCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 451,
+    "BANK_NAME": "Peoples Urban Co-Op Bank Ltd",
+    "ShortCode": "TPCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 452,
+    "BANK_NAME": "Kheda Peoples Co-Op Bank Ltd",
+    "ShortCode": "TPCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 453,
+    "BANK_NAME": "Bhadradri Co-Op Urban Bank Ltd",
+    "ShortCode": "BCUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 454,
+    "BANK_NAME": "The Manipur State Co-Op Bank",
+    "ShortCode": "MSCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 455,
+    "BANK_NAME": "The Financial Co-Op Bank Ltd",
+    "ShortCode": "FSCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 456,
+    "BANK_NAME": "The Kodungallur Town Co-Op Bank Ltd",
+    "ShortCode": "KTCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 457,
+    "BANK_NAME": "Shree Panchganga Nagari Sahakari Bank",
+    "ShortCode": "SPNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 458,
+    "BANK_NAME": "Malviya Urban Co-Op Bank Ltd",
+    "ShortCode": "MUCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 459,
+    "BANK_NAME": "Nilambur Urban Co-Op Bank Ltd",
+    "ShortCode": "MUCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 460,
+    "BANK_NAME": "Saraspur Nagrik Sahakari Bank",
+    "ShortCode": "SCNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 461,
+    "BANK_NAME": "Patan Nagarik Sahakari Bank Ltd",
+    "ShortCode": "UPAT",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 462,
+    "BANK_NAME": "The Mehsana District Central Co-Op Bank Ltd",
+    "ShortCode": "MSNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 463,
+    "BANK_NAME": "Khagaria District Central Co-Op Bank Ltd",
+    "ShortCode": "KDCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 464,
+    "BANK_NAME": "The Yavatmal Urban Co-Op Bank Ltd",
+    "ShortCode": "YUCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 465,
+    "BANK_NAME": "The Aurangabad District Central Co-Op Bank Ltd",
+    "ShortCode": "ACBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 466,
+    "BANK_NAME": "The Rohika Central Co-Op Bank Ltd Madhubani",
+    "ShortCode": "RCCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 467,
+    "BANK_NAME": "Uttrakhand Co-Op Bank Ltd",
+    "ShortCode": "UCOB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 468,
+    "BANK_NAME": "Khattri Co-Op Urban Bank Ltd",
+    "ShortCode": "BKCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 469,
+    "BANK_NAME": "The Surat Mercantile Co-Op Bank Ltd",
+    "ShortCode": "SMBC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 470,
+    "BANK_NAME": "Chittorgarh Urban Co-Op Bank Ltd",
+    "ShortCode": "CCUC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 471,
+    "BANK_NAME": "The Kanara District Central Co-Op Bank Ltd Sirsi",
+    "ShortCode": "KDCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 472,
+    "BANK_NAME": "The Karnavati Co-Op Bank Ltd",
+    "ShortCode": "TKCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 473,
+    "BANK_NAME": "The Washim Urban Co-Op Bank Ltd Washim",
+    "ShortCode": "WUCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 474,
+    "BANK_NAME": "Sarvodaya Sahakari Bank Ltd",
+    "ShortCode": "SSBH",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 475,
+    "BANK_NAME": "Ambajogai Peoples Co-Op Bank Ltd",
+    "ShortCode": "CAPC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 476,
+    "BANK_NAME": "Manjeri Co-Op Urban Bank Ltd",
+    "ShortCode": "MCUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 477,
+    "BANK_NAME": "Mansing Co-Op Bank Ltd Dudhondi",
+    "ShortCode": "CMCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 478,
+    "BANK_NAME": "Shri Adinath Co-Op Bank Ltd",
+    "ShortCode": "SACB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 479,
+    "BANK_NAME": "The Commercial Co-Op Bank Ltd Kolhapur",
+    "ShortCode": "CCBK",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 480,
+    "BANK_NAME": "The Vijay Co-Op Bank Ltd",
+    "ShortCode": "VCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 481,
+    "BANK_NAME": "Veraval Mercantile Co-Op Bank",
+    "ShortCode": "VMCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 482,
+    "BANK_NAME": "The Baroda City Co-Op Bank Ltd",
+    "ShortCode": "BCOB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 483,
+    "BANK_NAME": "Shri Janata Sahakari Bank Ltd Halol",
+    "ShortCode": "USJB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 484,
+    "BANK_NAME": "The Bhavana Rishi Co-Op Urban Bank Ltd",
+    "ShortCode": "BRCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 485,
+    "BANK_NAME": "Adarsh Mahila Nagari Sahakari Bank Ltd Aurangabad",
+    "ShortCode": "AMSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 486,
+    "BANK_NAME": "Associate Co-Op Bank Ltd",
+    "ShortCode": "ASCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 487,
+    "BANK_NAME": "Uttarkashi Zila Sahakari Bank Ltd",
+    "ShortCode": "DCBU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 488,
+    "BANK_NAME": "Sampada Sahakari Bank Ltd",
+    "ShortCode": "SBSL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 489,
+    "BANK_NAME": "The Ottapalam Co-Op Urban Bank Ltd",
+    "ShortCode": "OCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 490,
+    "BANK_NAME": "The Nawanagar Co-Op Bank",
+    "ShortCode": "NCOB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 491,
+    "BANK_NAME": "The Deola Merchant Co-Op Bank Ltd",
+    "ShortCode": "DMOB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 492,
+    "BANK_NAME": "Madhya Pradesh Rajya Sahakari Bank Maryadit",
+    "ShortCode": "MPAB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 493,
+    "BANK_NAME": "Aman Sahakari Bank Ltd Ichalkaranji",
+    "ShortCode": "ASMB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 494,
+    "BANK_NAME": "The Manmandir Co-Op Bank Ltd Vita",
+    "ShortCode": "MMCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 495,
+    "BANK_NAME": "Balotra Urban Co-Op Bank Ltd",
+    "ShortCode": "BALU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 496,
+    "BANK_NAME": "Rajkot District Central Co-Op Bank",
+    "ShortCode": "RDCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 497,
+    "BANK_NAME": "Bhatpara Naihati Co-Op Bank Ltd",
+    "ShortCode": "BUCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 498,
+    "BANK_NAME": "Wai Urban Co-Op Bank Ltd",
+    "ShortCode": "WUBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 499,
+    "BANK_NAME": "Navi Mumbai Co-Op Bank Ltd",
+    "ShortCode": "NMCL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 500,
+    "BANK_NAME": "Sudha Co-Op Urban Bank Ltd",
+    "ShortCode": "SCUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 501,
+    "BANK_NAME": "Angul Central Co-Op Bank Ltd",
+    "ShortCode": "YEAC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 502,
+    "BANK_NAME": "Balasore Bhadrak Central Co-Op Bank",
+    "ShortCode": "BBCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 503,
+    "BANK_NAME": "Banki Central Co-Op Bank Ltd",
+    "ShortCode": "BCYS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 504,
+    "BANK_NAME": "Berhampore Central Co-Op Bank Ltd",
+    "ShortCode": "IBBC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 505,
+    "BANK_NAME": "Bhawanipatna Central Co-Op Bank Ltd",
+    "ShortCode": "ICBC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 506,
+    "BANK_NAME": "Bolangir Central Co-Op Bank Ltd",
+    "ShortCode": "YSBC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 507,
+    "BANK_NAME": "Boudh Central Co-Op Bank Ltd",
+    "ShortCode": "YSBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 508,
+    "BANK_NAME": "Cuttack Central Co-Op Bank Ltd",
+    "ShortCode": "CCCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 509,
+    "BANK_NAME": "Khurda Central Co-Op Bank Ltd",
+    "ShortCode": "KCCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 510,
+    "BANK_NAME": "Mayurbhanj Central Co-Op Bank Ltd",
+    "ShortCode": "MCCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 511,
+    "BANK_NAME": "Nayagarh Central Co-Op Bank Ltd",
+    "ShortCode": "NCCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 512,
+    "BANK_NAME": "Sambalpur Central Co-Op Bank Ltd",
+    "ShortCode": "SCYS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 513,
+    "BANK_NAME": "Samruddhi Co-Op Bank Ltd",
+    "ShortCode": "SSBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 514,
+    "BANK_NAME": "The District Co-Op Bank Ltd",
+    "ShortCode": "TDCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 515,
+    "BANK_NAME": "Sundargarh Central Co-Op Bank Ltd",
+    "ShortCode": "SCBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 516,
+    "BANK_NAME": "United Puri Nimapara Central Co-Op Bank",
+    "ShortCode": "UPNC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 517,
+    "BANK_NAME": "Abhinandan Urban Co-Op Bank Ltd",
+    "ShortCode": "AUUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 518,
+    "BANK_NAME": "Bhilwara Urban Co-Op Bank Ltd",
+    "ShortCode": "BUCN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 519,
+    "BANK_NAME": "Sumerpur Merchantile Urban Co-Op Bank Ltd",
+    "ShortCode": "SMUC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 520,
+    "BANK_NAME": "The Eenadu Co-Op Urban Bank Ltd",
+    "ShortCode": "ECUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 521,
+    "BANK_NAME": "M S Co-Op Bank Ltd",
+    "ShortCode": "MSSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 522,
+    "BANK_NAME": "Sterling Urban Co-Op Bank Ltd",
+    "ShortCode": "SUCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 523,
+    "BANK_NAME": "Vallabh Vidyanagar Commercial Co-Op Bank Ltd",
+    "ShortCode": "VVCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 524,
+    "BANK_NAME": "Godavari Urban Co-Op Bank Ltd Vazirabad",
+    "ShortCode": "GUCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 525,
+    "BANK_NAME": "Baroda Central Co-Op Bank",
+    "ShortCode": "BCCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 526,
+    "BANK_NAME": "Darussalam Co-Op Urban Bank Ltd",
+    "ShortCode": "DCUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 527,
+    "BANK_NAME": "Shree Warana Sahakari Bank Ltd",
+    "ShortCode": "SWSS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 528,
+    "BANK_NAME": "The Panchsheel Mercantile Co-Op Bank Ltd",
+    "ShortCode": "TPMB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 529,
+    "BANK_NAME": "Unjha Nagarik Sahakari Bank Ltd",
+    "ShortCode": "UNSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 530,
+    "BANK_NAME": "Adar P D Patil Sahakari Bank",
+    "ShortCode": "APDB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 531,
+    "BANK_NAME": "C G Rajya Sahakari Bank Maryadit Raipur",
+    "ShortCode": "CGSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 532,
+    "BANK_NAME": "Samata Sahakari Bank Ltd",
+    "ShortCode": "SSBC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 533,
+    "BANK_NAME": "Mahesh Sahakari Bank Pune",
+    "ShortCode": "MSBP",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 534,
+    "BANK_NAME": "The Madanapalle Co-Op Town Bank Ltd",
+    "ShortCode": "MCTB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 535,
+    "BANK_NAME": "Shrimant Malojiraje Sahakari Bank Ltd",
+    "ShortCode": "SMSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 536,
+    "BANK_NAME": "Deendayal Nagari Sahakari Bank Ltd",
+    "ShortCode": "DNBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 537,
+    "BANK_NAME": "District Co-Op Bank Ltd Dehradun",
+    "ShortCode": "DCOB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 538,
+    "BANK_NAME": "The Urban Co-Op Bank Ltd Dharangaon",
+    "ShortCode": "UCBD",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 539,
+    "BANK_NAME": "Lakhimpur Urban Co-Op Bank Ltd",
+    "ShortCode": "LCUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 540,
+    "BANK_NAME": "Sundarlal Sawaji Urban Co-Op Bank Ltd",
+    "ShortCode": "SSCU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 541,
+    "BANK_NAME": "Manorma Co-Op Bank Ltd Solapur",
+    "ShortCode": "MCBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 542,
+    "BANK_NAME": "Junagadh Commercial Co-Op Bank Ltd",
+    "ShortCode": "JCCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 543,
+    "BANK_NAME": "Fincare Small Finance Bank Ltd",
+    "ShortCode": "FSFB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 544,
+    "BANK_NAME": "Idukki District Co-Op Bank Ltd",
+    "ShortCode": "IDUK",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 545,
+    "BANK_NAME": "Jalgaon Janata Sahakari Bank Ltd",
+    "ShortCode": "JJSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 546,
+    "BANK_NAME": "Janaseva Sahakari Bank Borivali Ltd",
+    "ShortCode": "JASB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 547,
+    "BANK_NAME": "Textile Traders Co-Op Bank Ltd",
+    "ShortCode": "TTCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 548,
+    "BANK_NAME": "Pragati Sahakari Bank Ltd",
+    "ShortCode": "PSBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 549,
+    "BANK_NAME": "Bhavnagar District Central Co-Op Bank Ltd",
+    "ShortCode": "BVNL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 550,
+    "BANK_NAME": "The Banaskantha District Central Co-Op Bank Ltd",
+    "ShortCode": "BKDL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 551,
+    "BANK_NAME": "Pune Merchants Co-Op Bank Ltd",
+    "ShortCode": "PMCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 552,
+    "BANK_NAME": "Latur Urban Co-Op Bank",
+    "ShortCode": "LUCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 553,
+    "BANK_NAME": "The Gandevi Peoples Co-Op Bank Ltd",
+    "ShortCode": "GPCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 554,
+    "BANK_NAME": "Rajarambapu Sahakari Bank Ltd",
+    "ShortCode": "RBSL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 555,
+    "BANK_NAME": "Central Co-Op Bank Ltd Ara",
+    "ShortCode": "CCBA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 556,
+    "BANK_NAME": "Mahaveer Co-Op Urban Bank Ltd",
+    "ShortCode": "MBCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 557,
+    "BANK_NAME": "The Jalgaon District Central Co-Op Bank Ltd",
+    "ShortCode": "JDBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 558,
+    "BANK_NAME": "Etawah District Co-Op Bank Ltd Etawah",
+    "ShortCode": "ETAW",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 559,
+    "BANK_NAME": "Bihar State Co-Op Bank Ltd",
+    "ShortCode": "BSCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 560,
+    "BANK_NAME": "Almora Zila Sahakari Bank Ltd",
+    "ShortCode": "AZSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 561,
+    "BANK_NAME": "Nainital District Co-Op Bank Ltd",
+    "ShortCode": "NDCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 562,
+    "BANK_NAME": "North East Small Finance Bank Ltd",
+    "ShortCode": "NESF",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 563,
+    "BANK_NAME": "Alapuzha District Co-Op Bank Ltd",
+    "ShortCode": "SADC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 564,
+    "BANK_NAME": "Chamoli Zila Sahakari Bank Ltd",
+    "ShortCode": "CZSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 565,
+    "BANK_NAME": "Navsarjan Industrial Co-OP Bank Ltd",
+    "ShortCode": "CNIC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 566,
+    "BANK_NAME": "Kankaria Maninagar Nagrik Sahakari Bank Ltd",
+    "ShortCode": "KMNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 567,
+    "BANK_NAME": "The Sarvodaya Nagrik Sahkari Bank Ltd",
+    "ShortCode": "SNBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 568,
+    "BANK_NAME": "The Kurla Nagarik Sahakari Bank Ltd",
+    "ShortCode": "KURL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 569,
+    "BANK_NAME": "The Bharat Co-Op Bank Ltd",
+    "ShortCode": "IBCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 570,
+    "BANK_NAME": "Jana Small Finance Bank Ltd",
+    "ShortCode": "JSFB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 571,
+    "BANK_NAME": "Gadchiroli District Central Co-Op Bank",
+    "ShortCode": "GDCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 572,
+    "BANK_NAME": "Shri Anand Nagari Sahakari Bank Limited",
+    "ShortCode": "SANB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 573,
+    "BANK_NAME": "Belagavi Shree Basveshwar Co-Op Bank Ltd",
+    "ShortCode": "SBCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 574,
+    "BANK_NAME": "Bhopal Co-Op Central Bank Ltd",
+    "ShortCode": "BCAE",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 575,
+    "BANK_NAME": "Kashmir Mercantile Co-Op Bank Ltd Kashmir",
+    "ShortCode": "KAMC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 576,
+    "BANK_NAME": "The Sevalia Urban Co-Op Bank Ltd",
+    "ShortCode": "SEVC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 577,
+    "BANK_NAME": "The Laxmi Co-Op Bank Ltd Solapur",
+    "ShortCode": "LCOS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 578,
+    "BANK_NAME": "The Sarvodaya Co-Op Bank Ltd Mum",
+    "ShortCode": "CSBM",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 579,
+    "BANK_NAME": "Janakalyan Co-Op Bank Ltd",
+    "ShortCode": "JBLN",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 580,
+    "BANK_NAME": "Deogiri Nagari Sahakari Bank Ltd",
+    "ShortCode": "DEOB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 581,
+    "BANK_NAME": "The Kapurthala Central Co-Op Bank Ltd",
+    "ShortCode": "SKPT",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 582,
+    "BANK_NAME": "Patliputra Central Co-Op Bank Ltd",
+    "ShortCode": "IPCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 583,
+    "BANK_NAME": "The Begusarai District Central Co-Op Bank",
+    "ShortCode": "BDCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 584,
+    "BANK_NAME": "Kozhikode District Co-Op Bank",
+    "ShortCode": "KDDB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 585,
+    "BANK_NAME": "Shushruti Souharda Sahakara Bank Niyamita",
+    "ShortCode": "SSBN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 586,
+    "BANK_NAME": "The Rajkot Commercial Co-Op Bank Ltd",
+    "ShortCode": "RCBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 587,
+    "BANK_NAME": "The Bardoli Nagrik Sahakari bank Ltd",
+    "ShortCode": "BNBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 588,
+    "BANK_NAME": "Urban Co-Op Bank Ltd Bareilly",
+    "ShortCode": "UCBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 589,
+    "BANK_NAME": "The United Co-Op Bank Ltd",
+    "ShortCode": "TUBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 590,
+    "BANK_NAME": "The Faridabad Central Co-Op Bank Ltd",
+    "ShortCode": "SFCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 591,
+    "BANK_NAME": "The Muzaffarpur Central Co-Op Bank Ltd",
+    "ShortCode": "IMCC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 592,
+    "BANK_NAME": "The South Canara District Central Co-Op Bank",
+    "ShortCode": "SCDC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 593,
+    "BANK_NAME": "The Ernakulam District Co-Op Bank Ltd",
+    "ShortCode": "BEDC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 594,
+    "BANK_NAME": "Vasai Janata Sahkari Bank Ltd",
+    "ShortCode": "VJBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 595,
+    "BANK_NAME": "Sangli Sahakari Bank Ltd",
+    "ShortCode": "SBBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 596,
+    "BANK_NAME": "Australia And New Zealand Banking Group Ltd",
+    "ShortCode": "ANZB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 597,
+    "BANK_NAME": "DMK Jaoli Bank",
+    "ShortCode": "DMKJ",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 598,
+    "BANK_NAME": "Doha Bank",
+    "ShortCode": "DOHB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 599,
+    "BANK_NAME": "Emirates Nbd India",
+    "ShortCode": "EBIL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 600,
+    "BANK_NAME": "Export Import Bank Of India",
+    "ShortCode": "EIBI",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 601,
+    "BANK_NAME": "Haryana State Co-Op Bank",
+    "ShortCode": "HARC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 602,
+    "BANK_NAME": "Woori Bank",
+    "ShortCode": "HVBK",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 603,
+    "BANK_NAME": "Bank Internasional Indonesia",
+    "ShortCode": "IBBK",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 604,
+    "BANK_NAME": "Industrial Bank Of Korea",
+    "ShortCode": "IBKO",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 605,
+    "BANK_NAME": "Industrial And Commercial Bank Of China Ltd",
+    "ShortCode": "ICBK",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 606,
+    "BANK_NAME": "Keb Hana Bank",
+    "ShortCode": "KOEX",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 607,
+    "BANK_NAME": "Krung Thai Bank Pcl",
+    "ShortCode": "KRTH",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 608,
+    "BANK_NAME": "Sir M Visvesvaraya Co-Op Bank Ltd",
+    "ShortCode": "MVCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 609,
+    "BANK_NAME": "National Australia Bank Ltd",
+    "ShortCode": "NATA",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 610,
+    "BANK_NAME": "National Bank Of Abu Dhabi PJSC",
+    "ShortCode": "NBAD",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 611,
+    "BANK_NAME": "National Bank For Agriculture And Rural Development",
+    "ShortCode": "NBRD",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 612,
+    "BANK_NAME": "Nagpur Nagrik Sahakari Bank Ltd",
+    "ShortCode": "NGSB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 613,
+    "BANK_NAME": "Nagar Urban Co-Op Bank",
+    "ShortCode": "NUCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 614,
+    "BANK_NAME": "The Navnirman Co-Op Bank Ltd",
+    "ShortCode": "NVNM",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 615,
+    "BANK_NAME": "Qatar National Bank Saq",
+    "ShortCode": "QNBA",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 616,
+    "BANK_NAME": "Rabobank International",
+    "ShortCode": "RABO",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 617,
+    "BANK_NAME": "IDRBT Bank",
+    "ShortCode": "RBIH",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 618,
+    "BANK_NAME": "Sber Bank",
+    "ShortCode": "SABR",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 619,
+    "BANK_NAME": "Small Industries Development Bank Of India",
+    "ShortCode": "SIDB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 620,
+    "BANK_NAME": "Shikshak Sahakari Bank Ltd",
+    "ShortCode": "SKSB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 621,
+    "BANK_NAME": "Tumkur Grain Merchants Co-Op Bank Ltd",
+    "ShortCode": "TGMB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 622,
+    "BANK_NAME": "United Overseas Bank Ltd",
+    "ShortCode": "UOVB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 623,
+    "BANK_NAME": "Westpac Banking Corporation",
+    "ShortCode": "WPAC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 624,
+    "BANK_NAME": "Credit Suisse AG Bank",
+    "ShortCode": "CRES",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 625,
+    "BANK_NAME": "Sumitomo Mitsui Banking Co-Op Bank",
+    "ShortCode": "SMBB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 626,
+    "BANK_NAME": "Tripura State Co-Op Bank Ltd",
+    "ShortCode": "TSCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 627,
+    "BANK_NAME": "The Yamuna Nagar Central Co-Op Bank Ltd",
+    "ShortCode": "YCCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 628,
+    "BANK_NAME": "The Banaskantha Mercantile Co-Op Bank Ltd",
+    "ShortCode": "BMCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 629,
+    "BANK_NAME": "Kota Nagrik Sahkari Bank Ltd kota",
+    "ShortCode": "CKNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 630,
+    "BANK_NAME": "The Commercial Co-Op Bank Ltd",
+    "ShortCode": "COMM",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 631,
+    "BANK_NAME": "The Naroda Nagrik Co-Op Bank Ltd",
+    "ShortCode": "NNCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 632,
+    "BANK_NAME": "The Godhra Urban Co-Op Bank Ltd",
+    "ShortCode": "SGUC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 633,
+    "BANK_NAME": "Solapur Siddheshwar Sahakari Bank Ltd",
+    "ShortCode": "SIDD",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 634,
+    "BANK_NAME": "Sharad Nagari Sahakari Bank Ltd",
+    "ShortCode": "SNSB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 635,
+    "BANK_NAME": "The Tarn Taran Central Co-Op Bank Ltd",
+    "ShortCode": "STTN",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 636,
+    "BANK_NAME": "Purnea District Central Co-Op Bank",
+    "ShortCode": "PCCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 637,
+    "BANK_NAME": "The Panchkula Central Co-Op Bank Ltd",
+    "ShortCode": "SPKL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 638,
+    "BANK_NAME": "The Kottakkal Co-Op Urban Bank Ltd",
+    "ShortCode": "SKUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 639,
+    "BANK_NAME": "Jampeta Urban Co-Op Bank",
+    "ShortCode": "CBNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 640,
+    "BANK_NAME": "Karnataka Gramin Bank",
+    "ShortCode": "RKGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 641,
+    "BANK_NAME": "Ahmednagar Sahar Sahakari Bank Maryadit",
+    "ShortCode": "ASSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 642,
+    "BANK_NAME": "Gujarat Ambuja Co-Op Bank Ltd",
+    "ShortCode": "GACB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 643,
+    "BANK_NAME": "The Business Co-Op Bank Ltd",
+    "ShortCode": "BOBC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 644,
+    "BANK_NAME": "The Nawada Central Co-Op Bank Ltd",
+    "ShortCode": "NCCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 645,
+    "BANK_NAME": "The Adinath Co-Op Bank Ltd",
+    "ShortCode": "ACOB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 646,
+    "BANK_NAME": "Shree Dharati Co-Op Bank Ltd",
+    "ShortCode": "SCDB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 647,
+    "BANK_NAME": "Rajkot Peoples Co-Op Bank Ltd",
+    "ShortCode": "RPCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 648,
+    "BANK_NAME": "Sirsi Urban Sahakari Bank Ltd",
+    "ShortCode": "USBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 649,
+    "BANK_NAME": "Sangola Urban Co-Op Bank Ltd",
+    "ShortCode": "SUCB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 650,
+    "BANK_NAME": "The Hoshiarpur Central Co-Op Bank Ltd",
+    "ShortCode": "SHSP",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 651,
+    "BANK_NAME": "Vaijapur Merchants Bank",
+    "ShortCode": "VMBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 652,
+    "BANK_NAME": "Jila Sahakari Kendriya Bank Maryadit Dhar",
+    "ShortCode": "JSKB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 653,
+    "BANK_NAME": "Peoples Co-Op Bank Ltd Dholka",
+    "ShortCode": "PCBD",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 654,
+    "BANK_NAME": "The Udaipur Mahila Urban Co-Op Bank Ltd",
+    "ShortCode": "UMUC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 655,
+    "BANK_NAME": "The Aska Co-Op Central Bank Ltd",
+    "ShortCode": "ASKA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 656,
+    "BANK_NAME": "Keonjhar Central Co-Op Bank Ltd",
+    "ShortCode": "SKCC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 657,
+    "BANK_NAME": "The Koraput Central Co-Op Bank Ltd",
+    "ShortCode": "SKOC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 658,
+    "BANK_NAME": "Nagaland Rural Bank",
+    "ShortCode": "NLGB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 659,
+    "BANK_NAME": "The Udupi Co-Op Town Bank",
+    "ShortCode": "UCTB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 660,
+    "BANK_NAME": "Coastal Local Area Bank Ltd",
+    "ShortCode": "CLAB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 661,
+    "BANK_NAME": "The Bhagyalakshmi Mahila Sah Bank",
+    "ShortCode": "BMSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 662,
+    "BANK_NAME": "The Ssk Co-Op Bank Ltd",
+    "ShortCode": "SSSK",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 663,
+    "BANK_NAME": "Valmiki Urban Co-Op Bank Ltd",
+    "ShortCode": "SVAU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 664,
+    "BANK_NAME": "The Bhandara District Central Co-Op Bank Ltd",
+    "ShortCode": "BHNL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 665,
+    "BANK_NAME": "The Nagar Sahakari Bank Ltd",
+    "ShortCode": "NBKG",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 666,
+    "BANK_NAME": "The Uttarsanda Peoples Co-Op Bank",
+    "ShortCode": "SUPC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 667,
+    "BANK_NAME": "The Kakatiya Co-Op Urban Bank",
+    "ShortCode": "SKCU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 668,
+    "BANK_NAME": "The Kranthi Co-Op Urban Bank Ltd",
+    "ShortCode": "SKRN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 669,
+    "BANK_NAME": "Sri Vasavamba Co-Op Bank Ltd",
+    "ShortCode": "VCBA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 670,
+    "BANK_NAME": "The Union Co-Op Bank Ltd",
+    "ShortCode": "UCBN",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 671,
+    "BANK_NAME": "Citizens Co-Op Bank Ltd",
+    "ShortCode": "CCOB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 672,
+    "BANK_NAME": "Jawahar Sahakari Bank Ltd",
+    "ShortCode": "JSBH",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 673,
+    "BANK_NAME": "Bapuji Co-Op Bank Ltd",
+    "ShortCode": "BOBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 674,
+    "BANK_NAME": "Uttrakhand State Co-Co Bank Ltd",
+    "ShortCode": "USCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 675,
+    "BANK_NAME": "Udham Singh Nagar District Co-Op Bank Ltd",
+    "ShortCode": "USND",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 676,
+    "BANK_NAME": "The Burdwan Central Co-Op Bank Ltd",
+    "ShortCode": "CBCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 677,
+    "BANK_NAME": "Pimpri Chinchwad Sahakari Bank",
+    "ShortCode": "PSCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 678,
+    "BANK_NAME": "The Maharaja Co-Op Urban Bank Ltd",
+    "ShortCode": "IMCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 679,
+    "BANK_NAME": "The Kerala State Co-Op Bank Ltd",
+    "ShortCode": "KCSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 680,
+    "BANK_NAME": "The Visakhapatnam Co-Op Bank Ltd",
+    "ShortCode": "TVCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 681,
+    "BANK_NAME": "Sarvodaya Commercial Co-Op Bank Ltd",
+    "ShortCode": "SCOB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 682,
+    "BANK_NAME": "The Samastipur District Central Co-Op Bank Ltd",
+    "ShortCode": "SDCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 683,
+    "BANK_NAME": "Belgaum Zilla Rani Channamma Mahila Sahakari Bank Niyamit",
+    "ShortCode": "BZRB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 684,
+    "BANK_NAME": "The Chandrapur District Central Co-Op Bank Ltd",
+    "ShortCode": "CDBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 685,
+    "BANK_NAME": "Ajantha Urban Co-Op Bank Ltd",
+    "ShortCode": "AUCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 686,
+    "BANK_NAME": "Mudgal Urban Co-Op Bank Ltd",
+    "ShortCode": "SMUB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 687,
+    "BANK_NAME": "Jodhpur Nagrik Sahakari Bank Ltd",
+    "ShortCode": "CJNB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 688,
+    "BANK_NAME": "Wardhman Urban Co-Op Bank Ltd",
+    "ShortCode": "WUCL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 689,
+    "BANK_NAME": "Mizoram Co-Op Apex Bank Ltd",
+    "ShortCode": "MABL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 690,
+    "BANK_NAME": "The Naval Dockyard Co-Op Bank Ltd",
+    "ShortCode": "NDBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 691,
+    "BANK_NAME": "Vardhaman Mahila Co-Op Urban Bank Ltd",
+    "ShortCode": "CVBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 692,
+    "BANK_NAME": "Jammu And Kashmir State Co-Op Bank",
+    "ShortCode": "SJKB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 693,
+    "BANK_NAME": "Jivan Commercial Co-Op Bank Ltd",
+    "ShortCode": "JIVA",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 694,
+    "BANK_NAME": "Krishna Bhima Samruddhi Local Area Bank",
+    "ShortCode": "KBSL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 695,
+    "BANK_NAME": "The Dahod Urban Co-Op Bank Ltd",
+    "ShortCode": "TDUC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 696,
+    "BANK_NAME": "Shri Mahila Sewa Sahakari Bank Ltd",
+    "ShortCode": "SMSS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 697,
+    "BANK_NAME": "Mahatma Fule Urban Co-Op Bank Ltd Amravati",
+    "ShortCode": "MFUC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 698,
+    "BANK_NAME": "The Tiruvalla East Co-Op Bank",
+    "ShortCode": "TTEC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 699,
+    "BANK_NAME": "The Gandhi Co-Op Urban Bank Ltd",
+    "ShortCode": "TGCU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 700,
+    "BANK_NAME": "The Anand Mercantile Co-Op Bank Ltd",
+    "ShortCode": "AMBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 701,
+    "BANK_NAME": "Nagrik Sahakari Bank Maryadit Vidisha",
+    "ShortCode": "NSMV",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 702,
+    "BANK_NAME": "Udyam Vikas Sahakari bank",
+    "ShortCode": "UVSB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 703,
+    "BANK_NAME": "The Texco Co-Op Bank Ltd",
+    "ShortCode": "TCBL",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 704,
+    "BANK_NAME": "Uma Co-Op Bank Ltd",
+    "ShortCode": "UMCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 705,
+    "BANK_NAME": "Shri Shivayogi Murughendra Swami Urban Co-Op Bank Ltd",
+    "ShortCode": "SMSU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 706,
+    "BANK_NAME": "Jila Sahakari Kendriya Bank Maryadit Vidisha",
+    "ShortCode": "JSKV",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 707,
+    "BANK_NAME": "Jila Sahakari Kendriya Bank Maryadit Ujjain",
+    "ShortCode": "JSKU",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 708,
+    "BANK_NAME": "Jila Sahakari Kendriya Bank Maryadit Dewas",
+    "ShortCode": "JSKD",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 709,
+    "BANK_NAME": "The Sultan S Battery Co-Op Urban Bank Ltd",
+    "ShortCode": "SBCB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 710,
+    "BANK_NAME": "Sri Rama Co-Op Bank Ltd",
+    "ShortCode": "SRBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 711,
+    "BANK_NAME": "Sri Guru Raghavendra Sahakara Bank Niyamitha",
+    "ShortCode": "SGRS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 712,
+    "BANK_NAME": "Navanagara Urban Co-Op Bank Ltd",
+    "ShortCode": "NUBB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 713,
+    "BANK_NAME": "Subhadra Local Area Bank Ltd",
+    "ShortCode": "SLAB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 714,
+    "BANK_NAME": "Parbhani District Central Co-Op Bank",
+    "ShortCode": "PDBH",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 715,
+    "BANK_NAME": "The Gopalganj Central Gopalganj Co-Op Bank Ltd",
+    "ShortCode": "GCBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 716,
+    "BANK_NAME": "The Bhatkal Urban Co-Op Bank Ltd",
+    "ShortCode": "SBUL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 717,
+    "BANK_NAME": "Vaishya Nagari Sahakari Bank Ltd",
+    "ShortCode": "SVNS",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 718,
+    "BANK_NAME": "The Fatehgarh Sahib Central Co-Op Bank Ltd",
+    "ShortCode": "SFGH",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 719,
+    "BANK_NAME": "Indore Cloth Mkt Co-Op Bank",
+    "ShortCode": "ICMB",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 720,
+    "BANK_NAME": "The Solapur Dist Central Co-Op Bank",
+    "ShortCode": "BSDC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 721,
+    "BANK_NAME": "Latur District Central Co-Op Bank Ltd",
+    "ShortCode": "ILDC",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  },
+  {
+    "BankID": 722,
+    "BANK_NAME": "NSDL Payment Bank Limited",
+    "ShortCode": "NSPB",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 723,
+    "BANK_NAME": "The Pimpalgaon Merchants Co-Op Bank Ltd",
+    "ShortCode": "CPIM",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 724,
+    "BANK_NAME": "Mizoram Urban Co-Op Development Bank",
+    "ShortCode": "MUDC",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 725,
+    "BANK_NAME": "Indore Paraspar Sahakari Bank Ltd",
+    "ShortCode": "INPR",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 726,
+    "BANK_NAME": "The Co-Op Bank Of Mehsana Ltd",
+    "ShortCode": "CBML",
+    "IMPS_Status": "Enabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "On"
+  },
+  {
+    "BankID": 727,
+    "BANK_NAME": "The Gurgaon Central Co-Op Bank Ltd",
+    "ShortCode": "BGBL",
+    "IMPS_Status": "Disabled",
+    "NEFT_Status": "Enabled",
+    "IsVerficationAvailable": "Off"
+  }
+]

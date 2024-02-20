@@ -6,16 +6,28 @@ from django.contrib import messages
 from flask import json
 from .forms import SignUpForm, EditProfileForm, ChangePasswordForm
 from django.contrib.auth.models import User
-from .components import generate_order_id, dict_to_xml
+from .components import generate_txn_id, dict_to_xml, bank_list
+import pandas as pd
+from authenticate.txncomponents.withdrawformreq import withdraw_apireq
+import xml.etree.ElementTree as ET
+
 
 def home(request):
     return render(request, 'authenticate/home.html')
 
 def withdrawform(request):
-    return render(request, 'transaction/withdrawform.html')
+    bank_list_context = bank_list()
+    context = {
+        **bank_list_context,
+    }
+    return render(request, 'transaction/withdrawform.html',context)
 
 def depositform(request):
-    return render(request, 'transaction/depositform.html')
+    bank_list_context = bank_list()
+    context = {
+        **bank_list_context,
+    }
+    return render(request, 'transaction/depositform.html',context)
 
 def login_user(request):
     if request.method == 'POST':
@@ -92,35 +104,69 @@ def change_password(request):
     return render(request, 'authenticate/change_password.html', context)
 
 
-def process_withdrawform(request):
-    if request.method == 'GET':
-        customer_mobile_number = request.GET.get('customermobilenumber')
-        aadhar_number = request.GET.get('aadharNumber')
-        amount = request.GET.get('amount')
-        bank_option = request.GET.get('bankOption')
-        checkbox_checked = request.GET.get('checkboxChecked')
-        order_id = generate_order_id()
-        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        # print("Customer Mobile Number:", customer_mobile_number)
-        # print("Aadhar Number:", aadhar_number)
-        # print("Amount:", amount)
-        # print("Bank Option:", bank_option)
-        
-        form_data = {
-            'order_id': order_id,
-            'mid':'mid',
-            'timeStamp': timestamp,
-            'customer_mobile_number': customer_mobile_number,
-            'aadhar_number': aadhar_number,
-            'amount': amount,
-            'bank_option': bank_option,
-        }
-        # json_data = json.dumps(form_data)
-        # print("Form Data:", json_data)
-        # return JsonResponse(form_data)
+# def process_withdrawform(request):
+#     if request.method == 'GET':
+#         customer_mobile_number = request.GET.get('customermobilenumber')
+#         aadhar_number = request.GET.get('aadharNumber')
+#         amount = request.GET.get('amount')
+#         bank_option = request.GET.get('bankOption')
+#         order_id = generate_order_id()
+#         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+#         form_data = {
+#             'order_id': order_id,
+#             'mid':'mid',
+#             'timeStamp': timestamp,
+#             'customer_mobile_number': customer_mobile_number,
+#             'aadhar_number': aadhar_number,
+#             'amount': amount,
+#             'bank_option': bank_option,
+#         }
+#         # json_data = json.dumps(form_data)
+#         # return JsonResponse(form_data)
+#         xml_data = dict_to_xml(form_data)
+#         # print("Form Data (XML):", xml_data.decode('utf-8'))
+#         return HttpResponse(xml_data, content_type="application/xml")
+#     else:
+#         return HttpResponse("Invalid request method.")
 
-        xml_data = dict_to_xml(form_data)
-        # print("Form Data (XML):", xml_data.decode('utf-8'))
-        return HttpResponse(xml_data, content_type="application/xml")
-    else:
-        return HttpResponse("Invalid request method.")
+# def process_withdraw_elements(request):
+#     if request.method == 'GET':
+#         customer_mobile_number = request.GET.get('customermobilenumber')
+#         aadhar_number = request.GET.get('aadharNumber')
+#         amount = request.GET.get('amount')
+#         bank_option = request.GET.get('bankOption')
+#         order_id = generate_order_id()
+#         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+#         form_data = {
+#             'order_id': order_id,
+#             'mid':'mid',
+#             'timeStamp': timestamp,
+#             'customer_mobile_number': customer_mobile_number,
+#             'aadhar_number': aadhar_number,
+#             'amount': amount,
+#             'bank_option': bank_option,
+#         }
+#     return HttpResponse("Invalid request method.")
+
+def process_withdrawform(request):
+    api_req_data_context = withdraw_apireq(request)
+    context = {
+        **api_req_data_context,
+    }
+    def dict_to_xml_recursive(tag, d):
+        elem = ET.Element(tag)
+        for key, val in d.items():
+            if isinstance(val, dict):
+                elem.append(dict_to_xml_recursive(key, val))
+            elif isinstance(val, list):
+                for item in val:
+                    elem.append(dict_to_xml_recursive(key, item))
+            else:
+                child = ET.Element(key)
+                child.text = str(val)
+                elem.append(child)
+        return elem
+
+    root = dict_to_xml_recursive("Root", context)
+    xml_string = ET.tostring(root, encoding='utf8', method='xml')
+    return HttpResponse(xml_string, content_type='application/xml')

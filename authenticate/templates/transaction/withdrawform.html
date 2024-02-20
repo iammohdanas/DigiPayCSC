@@ -163,7 +163,7 @@
                     </div>
                     <div class="form-group">
                         <label for="aadharNumber">Aadhar Number</label>
-                        <input type="text" class="form-control" id="withdrawformaadharNumber" name="aadharNumber" placeholder="Enter Aadhar number" required>
+                        <input type="text" class="form-control" id="withdrawformaadharNumber" name="aadharNumber" placeholder="Enter Aadhar number" pattern="[0-9]{16}" maxlength="16" title="Enter 16-digit Aadhar Number" required>
                         <small id="aadharNumberHelp" class="form-text text-muted">Enter 16-digits Aadhar Number.</small>
                     </div>
                     <div class="form-group">
@@ -174,19 +174,14 @@
                     <div class="form-group">
                         <label for="bankOption">Bank Option</label>
                         <select class="form-control" id="withdrawformbankOption" name="bankOption">
-                            <option value="sbi">SBI</option>
-                            <option value="icici">ICICI Bank</option>
-                            <option value="pnb">PNB Bank</option>
-                            <option value="kotak">Kotak Bank</option>
+                            {% for bank in bank_data %}
+                                <option value="{{ bank.ShortCode }}" >{{ bank.BANK_NAME }}</option>
+                            {% endfor %}
                         </select>
                     </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="withdrawformexampleCheck1" name="checkboxChecked">
-                        <label class="form-check-label" for="withdrawformexampleCheck1">Check me out</label>
-                    </div>
                     <div class="row">
-                        &nbsp; &nbsp; <button type="submit" class="btn btn-primary btn-authenticate" >Authenticate</button> &nbsp; &nbsp; &nbsp; 
-                        <button type="submit" class="btn btn-primary btn-withdraw" disabled>Withdraw</button>
+                        &nbsp; &nbsp; <button type="button" class="btn btn-primary btn-authenticate" >Authenticate</button> &nbsp; &nbsp; &nbsp; 
+                        <button type="submit" class="btn btn-primary btn-withdraw" >Withdraw</button>
                     </div>
                 </form>
             </div>
