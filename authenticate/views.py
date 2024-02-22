@@ -10,7 +10,7 @@ from .components import generate_txn_id, dict_to_xml, bank_list
 import pandas as pd
 from authenticate.txncomponents.withdrawformreq import withdraw_apireq
 import xml.etree.ElementTree as ET
-
+import dicttoxml
 
 def home(request):
     return render(request, 'authenticate/home.html')
@@ -153,20 +153,40 @@ def process_withdrawform(request):
     context = {
         **api_req_data_context,
     }
-    def dict_to_xml_recursive(tag, d):
-        elem = ET.Element(tag)
-        for key, val in d.items():
-            if isinstance(val, dict):
-                elem.append(dict_to_xml_recursive(key, val))
-            elif isinstance(val, list):
-                for item in val:
-                    elem.append(dict_to_xml_recursive(key, item))
+    # def dict_to_xml(d, parent=None):
+    #     if parent is None:
+    #         parent = ET.Element(list(d.keys())[0])
+    #     for key, value in d.items():
+    #         if isinstance(value, dict):
+    #             dict_to_xml(value, parent=ET.SubElement(parent, key))
+    #         else:
+    #             parent.set(key, value)
+    #     return parent
+    
+    def dict_to_xml(d, parent=None):
+        if parent is None:
+            parent = ET.Element(list(d.keys())[0])
+        
+        for key, value in d.items():
+            if key == 'Device' :
+                device_element = ET.SubElement(parent, key)
+                for tag in value['Tag']:
+                    tag_element = ET.SubElement(device_element, 'Tag')
+                    tag_element.set('name', tag['name'])
+                    tag_element.set('value', tag['value'])
+            elif key == 'Ac':  # Check if key is 'Ac'
+                ac_element = ET.SubElement(parent, key)
+                for detail in value['Detail']:
+                    detail_tag = ET.SubElement(ac_element, 'Tag')
+                    detail_tag.set('name', detail['name'])
+                    detail_tag.set('value', detail['value'])
+            elif isinstance(value, dict):
+                dict_to_xml(value, parent=ET.SubElement(parent, key))
             else:
-                child = ET.Element(key)
-                child.text = str(val)
-                elem.append(child)
-        return elem
-
-    root = dict_to_xml_recursive("Root", context)
-    xml_string = ET.tostring(root, encoding='utf8', method='xml')
+                parent.set(key, value)
+                
+        return parent
+    root = dict_to_xml(context)
+    xml_string = ET.tostring(root, encoding="unicode")
+    
     return HttpResponse(xml_string, content_type='application/xml')

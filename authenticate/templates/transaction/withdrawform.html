@@ -179,9 +179,23 @@
                             {% endfor %}
                         </select>
                     </div>
+                    <div class="form-group">
+                        <label for="transactionType">Transaction Type</label>
+                        <select class="form-control" id="withdrawformtransactionType" name="transactionType">
+                            <option value="21">Purchase of Goods</option>
+                            <option value="22">Cash Withdrawal</option>
+                            <option value="23">Deposit</option>
+                            <option value="24">Fund Transfer</option>
+                            <option value="26">Issuer Bio Auth</option>
+                            <option value="27">SHG Cash Withdrawal</option>
+                            <option value="28">SHG Cash Deposit</option>
+                            <option value="29">SHG Fund Transfer</option>
+                            <option value="00">Authentication</option>
+                        </select>
+                    </div>
                     <div class="row">
                         &nbsp; &nbsp; <button type="button" class="btn btn-primary btn-authenticate" >Authenticate</button> &nbsp; &nbsp; &nbsp; 
-                        <button type="submit" class="btn btn-primary btn-withdraw" >Withdraw</button>
+                        <button type="submit" class="btn btn-primary btn-withdraw">Proceed</button>
                     </div>
                 </form>
             </div>

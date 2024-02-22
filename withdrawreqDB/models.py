@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Transaction(models.Model):
-    txn_id = models.CharField(max_length=100, verbose_name="Transaction ID")
+    txn_id = models.CharField(max_length=100, verbose_name="Transaction ID", primary_key=True)
     timestamp = models.DateTimeField(verbose_name="Timestamp")
     customer_id = models.CharField(max_length=100, blank=True, null=True, verbose_name="Customer ID")
     aadhaar_number = models.CharField(max_length=100, verbose_name="Aadhaar Number")
@@ -15,9 +15,9 @@ class Transaction(models.Model):
     terminal_id = models.CharField(max_length=100, verbose_name="Terminal ID")
     bank_id = models.CharField(max_length=100, blank=True, null=True, verbose_name="Bank ID")
     location = models.CharField(max_length=100, verbose_name="Location")
-    transaction_ref_number = models.CharField(max_length=100, verbose_name="Transaction Reference Number")
+    transaction_ref_number = models.CharField(max_length=100, verbose_name="Transaction Reference Number", unique=True)
     response_code = models.CharField(max_length=100, blank=True, null=True, verbose_name="Response Code")
     remarks = models.TextField(blank=True, null=True, verbose_name="Remarks")
     user_agent = models.TextField(blank=True, null=True, verbose_name="User Agent")
     transaction_fee = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True, verbose_name="Transaction Fee")
-    customer_reference_number = models.CharField(max_length=100, verbose_name="Customer Reference Number",null=True)
+    customer_reference_number = models.CharField(max_length=100, verbose_name="Customer Reference Number",null=True, unique=True)
