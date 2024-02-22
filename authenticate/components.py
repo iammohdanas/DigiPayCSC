@@ -46,3 +46,8 @@ def bank_list():
     }
     return context
 
+def generate_timestamp():
+    custom_datetime = datetime.datetime(2023, 2, 13, 15, 11, 38, 43000)
+    timezone_offset = datetime.datetime.now(datetime.timezone.utc).astimezone().strftime('%z')
+    formatted_timestamp = custom_datetime.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + timezone_offset
+    return formatted_timestamp

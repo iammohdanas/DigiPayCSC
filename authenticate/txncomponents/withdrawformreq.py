@@ -3,7 +3,7 @@ from decimal import Decimal
 import json
 import random
 from django.http import HttpResponse
-from authenticate.components import generate_txn_id, generate_msg_id
+from authenticate.components import generate_txn_id, generate_msg_id, generate_timestamp
 from withdrawreqDB.models import Transaction
 import pandas
 
@@ -30,7 +30,7 @@ def bankdata():
 
 
 def withdraw_apireq(request):
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + datetime.datetime.now().strftime("%z")
+    timestamp = generate_timestamp()
     if request.method == 'GET':
         customer_mobile_number = request.GET.get('customermobilenumber')
         aadhar_number = request.GET.get('aadharNumber')
@@ -73,109 +73,83 @@ def withdraw_apireq(request):
             bank_id=bank_shortcode,
             customer_reference_number = customer_ref_number           
         )
-    context ={
-    "ns2ReqPay": {
-        "xmlnsns2": "http://npci.org/upi/schema/",
-        "xmlnsns3": "http://npci.org/cm/schema/",
-        "Head": {
-            "callbackEndpointIP": "192.168.48.237",
-            "msgId": "msg_id",
-            "orgId": "232323",
-            "prodType": "AEPS",
-            "ts": "timestamp",
-            "ver": "2.0"
-        },
-        "Txn": {
-            "crtnTs": "timestamp",
-            "custRef": "customer_ref_number",
-            "id": "txn_id",
-            "initiationMode": "00",
-            "note": "AEPS Transaction",
-            "purpose": "transaction_type",
-            "refId": "008142",
-            "refUrl": "https://www.npci.org.in/",
-            "subType": "PAY",
-            "ts": "timestamp",
-            "type": "PAY"
-        },
-        "Payer": {
-            "addr": "232323@ore",
-            "code": "6012",
-            "name": "",
-            "seqNum": "0",
-            "type": "ENTITY",
-            "Info": {
-                "Identity": {
-                    "type": "BANK",
-                    "verifiedName": "bank_name"
-                },
-                "Rating": {
-                    "verifiedAddress": "TRUE"
-                }
-            },
-            "Device": {
-                "Tag": [
-                    {
-                        "name": "TYPE",
-                        "value": "INET"
+    context = {"xml":{
+               "version":"1.0", 
+               "encoding":"UTF-8",
+                "standalone":"no",
+               
+                "ns2ReqPay": {
+                    "xmlnsns2": "http://npci.org/upi/schema/",
+                    "xmlnsns3": "http://npci.org/cm/schema/",
+                    "Head": {
+                        "callbackEndpointIP":"192.168.48.237" ,
+                        "msgId": msg_id,
+                        "orgId": "232323",
+                        "prodType": "AEPS",
+                        "ts": timestamp,
+                        "ver": "2.0"
                     },
-                    {
-                        "name": "posEntryCode",
-                        "value": "019"
+                    "Txn": {
+                        "crtnTs": timestamp,
+                        "custRef": customer_ref_number,
+                        "id": txn_id,
+                        "initiationMode": "00",
+                        "note": "AEPS Transaction",
+                        "purpose": transaction_type,
+                        "refId": "008142",
+                        "refUrl": "https://www.npci.org.in/",
+                        "subType": "PAY",
+                        "ts": timestamp,
+                        "type": "PAY"
                     },
-                    {
-                        "name": "posServCdnCode",
-                        "value": "05"
+                    "Payer": {
+                    "addr": "232323@ore",
+                    "code": "6012",
+                    "name": "",
+                    "seqNum": "0",
+                    "type": "ENTITY",
+                        "Info": {
+                            "Identity": {
+                            "type": "BANK",
+                            "verifiedName": bank_name
+                            },
+                            "Rating": {
+                            "verifiedAddress": "TRUE"
+                            }
+                        },
+                    "Device": {
+                        "Tag": [
+                            {"name": "TYPE", "value": "INET"},
+                            {"name": "posEntryCode", "value": "019"},
+                            {"name": "posServCdnCode", "value": "05"},
+                            {"name": "cardAccpTrId", "value": "register"},
+                            {"name": "cardAccIdCode", "value": ""},
+                            {"name": "LOCATION", "value": ""},
+                            {"name": "PinCode", "value": "123456"},
+                            {"name": "AgentId", "value": "XXXXXXXXXXXXXXXXXXXXXXXXX"}
+                        ]
                     },
-                    {
-                        "name": "cardAccpTrId",
-                        "value": "register"
+                    "Ac": {
+                        "addrType": "AADHAAR",
+                        "Detail": [
+                        {"name": "IIN", "value": bank_iin},
+                        {"name": "UIDNUM", "value": aadhar_number}
+                        ]
                     },
-                    {
-                        "name": "cardAccIdCode",
-                        "value": ""
-                    },
-                    {
-                        "name": "LOCATION",
-                        "value": ""
-                    },
-                    {
-                        "name": "PinCode",
-                        "value": "123456"
-                    },
-                    {
-                        "name": "AgentId",
-                        "value": "XXXXXXXXXXXXXXXXXXXXXXXXX"
-                    }
-                ]
-            },
-            "Ac": {
-                "addrType": "AADHAAR",
-                "Detail": [
-                    {
-                        "name": "IIN",
-                        "value": "bank_iin"
-                    },
-                    {
-                        "name": "UIDNUM",
-                        "value": "aadhar_number"
-                    }
-                ]
-            },
-            "Creds": {
-                "Cred": {
-                    "subType": "AADHAAR-BIO-FP",
-                    "type": "AADHAAR",
-                    "Auth": {
-                        "ac": "STGNPCI001",
-                        "lk": "MLIfwcvTfWA0o8qdLa_SWgMMRgvWzaynhOg9YmLdQsgusioghfshOE-38",
-                        "rc": "Y",
-                        "sa": "STGNPCI001",
-                        "tid": "registered",
-                        "txn": "008142",
-                        "uid": "",
-                        "ver": "2.5",
-                        "Uses": {
+                    "Creds": {
+                        "Cred": {
+                        "subType": "AADHAAR-BIO-FP",
+                        "type": "AADHAAR",
+                        "Auth": {
+                            "ac": "STGNPCI001",
+                            "lk": "MLIfwcvTfWA0o8qdLa_SWgMMRgvWzaynhOg9YmLdQsgusioghfshOE-38",
+                            "rc": "Y",
+                            "sa": "STGNPCI001",
+                            "tid": "registered",
+                            "txn": "008142",
+                            "uid": "",
+                            "ver": "2.5",
+                            "Uses": {
                             "pi": "n",
                             "pa": "n",
                             "pfa": "n",
@@ -183,8 +157,8 @@ def withdraw_apireq(request):
                             "bt": "FMR,FIR",
                             "pin": "n",
                             "otp": "n"
-                        },
-                        "Meta": {
+                            },
+                            "Meta": {
                             "udc": "NPC000010700183",
                             "rdsId": "SCPL.WIN.001",
                             "rdsVer": "1.0.3",
@@ -192,70 +166,71 @@ def withdraw_apireq(request):
                             "dc": "9a374a3f-9670-493f-86aa-8756ddcea24b",
                             "mi": "MSO1300E2L0SW",
                             "mc": ""
-                        },
-                        "Skey": {},
-                        "Hmac": {},
-                        "Data": {}
-                    }
-                }
-            },
-            "Amount": {
-                "curr": "INR",
-                "value": "txn_amount"
-            }
-        },
-        "Payees": {
-            "Payee": {
-                "addr": "@663366.iin.npci",
-                "code": "0000",
-                "seqNum": "0",
-                "type": "PERSON",
-                "Amount": {
-                    "curr": "INR",
-                    "value": "txn_amount"
-                },
-                "Creds": {
-                    "Cred": {
-                        "subType": "NA",
-                        "type": "PostCredit"
-                    }
-                }
-            }
-        },
-        "Signature": {
-            "xmlns": "http://www.w3.org/2000/09/xmldsig#",
-            "SignedInfo": {
-                "CanonicalizationMethod": {
-                    "Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
-                },
-                "SignatureMethod": {
-                    "Algorithm": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
-                },
-                "Reference": {
-                    "URI": "",
-                    "Transforms": {
-                        "Transform": {
-                            "Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                            },
+                            "Skey": {},
+                            "Hmac": {},
+                            "Data": {}
+                        }
                         }
                     },
-                    "DigestMethod": {
-                        "Algorithm": "http://www.w3.org/2001/04/xmlenc#sha256"
+                    "Amount": {
+                        "curr": "INR",
+                        "value": txn_amount
+                    }
                     },
-                    "DigestValue": "qMX89cH6TbRh15pHG4P+3phZkMtqCs7YWRKAJq/7c/s="
-                }
-            },
-            "SignatureValue": "",
-            "KeyInfo": {
-                "KeyValue": {
-                    "RSAKeyValue": {
-                        "Modulus": "",
-                        "Exponent": "AQAB"
+                    "Payees": {
+                        "Payee": {
+                            "addr": "@663366.iin.npci",
+                            "code": "0000",
+                            "seqNum": "0",
+                            "type": "PERSON",
+                            "Amount": {
+                            "curr": "INR",
+                            "value": txn_amount
+                            },
+                            "Creds": {
+                            "Cred": {
+                                    "subType": "NA",
+                                    "type": "PostCredit"
+                                }
+                            }
+                        }
+                    },
+                    "Signature": {
+                        "xmlns": "http://www.w3.org/2000/09/xmldsig#",
+                        "SignedInfo": {
+                            "CanonicalizationMethod": {
+                                "Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                            },
+                            "SignatureMethod": {
+                                "Algorithm": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
+                            },
+                            "Reference": {
+                                "URI": "",
+                                "Transforms": {
+                                    "Transform": {
+                                        "Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                                    }
+                                },
+                                "DigestMethod": {
+                                    "Algorithm": "http://www.w3.org/2001/04/xmlenc#sha256"
+                                },
+                                "DigestValue": "qMX89cH6TbRh15pHG4P+3phZkMtqCs7YWRKAJq/7c/s="
+                            }
+                        },
+                        "SignatureValue": "",
+                        "KeyInfo": {
+                            "KeyValue": {
+                                "RSAKeyValue": {
+                                    "Modulus": "",
+                                    "Exponent": "AQAB"
+                                }
+                            }
+                        }
                     }
                 }
-            }
-        }
-    }
-}
+            }}
+    
     return context
 
 

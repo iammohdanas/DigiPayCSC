@@ -153,28 +153,18 @@ def process_withdrawform(request):
     context = {
         **api_req_data_context,
     }
-    # def dict_to_xml(d, parent=None):
-    #     if parent is None:
-    #         parent = ET.Element(list(d.keys())[0])
-    #     for key, value in d.items():
-    #         if isinstance(value, dict):
-    #             dict_to_xml(value, parent=ET.SubElement(parent, key))
-    #         else:
-    #             parent.set(key, value)
-    #     return parent
-    
     def dict_to_xml(d, parent=None):
         if parent is None:
-            parent = ET.Element(list(d.keys())[0])
+            parent = ET.Element('ns2ReqPay')  # Create ns2ReqPay element instead of xml
         
         for key, value in d.items():
-            if key == 'Device' :
+            if key == 'Device':
                 device_element = ET.SubElement(parent, key)
                 for tag in value['Tag']:
                     tag_element = ET.SubElement(device_element, 'Tag')
                     tag_element.set('name', tag['name'])
                     tag_element.set('value', tag['value'])
-            elif key == 'Ac':  # Check if key is 'Ac'
+            elif key == 'Ac':
                 ac_element = ET.SubElement(parent, key)
                 for detail in value['Detail']:
                     detail_tag = ET.SubElement(ac_element, 'Tag')
@@ -186,7 +176,10 @@ def process_withdrawform(request):
                 parent.set(key, value)
                 
         return parent
+
     root = dict_to_xml(context)
     xml_string = ET.tostring(root, encoding="unicode")
-    
+    # Removing the <xml> root element
+    xml_string = xml_string.replace('<ns2ReqPay>', '').replace('</ns2ReqPay>', '')
     return HttpResponse(xml_string, content_type='application/xml')
+
