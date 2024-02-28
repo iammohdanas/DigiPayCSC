@@ -6,14 +6,14 @@ from django.http import JsonResponse
 import xml.etree.ElementTree as ET
 
 def generate_txn_id(request):
-    if request.method == 'GET':
-        bank_shortcode = request.GET.get('bankOption')
+    if request.method == 'POST':
+        bank_shortcode = request.POST.get('bankOption')
     txn_id = bank_shortcode[:3]+ str(random.randint(10**31, 10**32 - 1))
     return txn_id
 
 def generate_msg_id(request):
-    if request.method == "GET":
-        bank_shortcode = request.GET.get('bankOption')
+    if request.method == "POST":
+        bank_shortcode = request.POST.get('bankOption')
     alphanumeric_chars = string.ascii_letters + string.digits
     msg_id = bank_shortcode[:3] + ''.join(random.choices(alphanumeric_chars, k=29))
     return msg_id

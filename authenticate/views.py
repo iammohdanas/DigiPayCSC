@@ -11,6 +11,8 @@ import pandas as pd
 from authenticate.txncomponents.withdrawformreq import withdraw_apireq
 import xml.etree.ElementTree as ET
 import dicttoxml
+import xmltool
+import xmltodict
 
 def home(request):
     return render(request, 'authenticate/home.html')
@@ -103,83 +105,14 @@ def change_password(request):
     }
     return render(request, 'authenticate/change_password.html', context)
 
-
-# def process_withdrawform(request):
-#     if request.method == 'GET':
-#         customer_mobile_number = request.GET.get('customermobilenumber')
-#         aadhar_number = request.GET.get('aadharNumber')
-#         amount = request.GET.get('amount')
-#         bank_option = request.GET.get('bankOption')
-#         order_id = generate_order_id()
-#         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-#         form_data = {
-#             'order_id': order_id,
-#             'mid':'mid',
-#             'timeStamp': timestamp,
-#             'customer_mobile_number': customer_mobile_number,
-#             'aadhar_number': aadhar_number,
-#             'amount': amount,
-#             'bank_option': bank_option,
-#         }
-#         # json_data = json.dumps(form_data)
-#         # return JsonResponse(form_data)
-#         xml_data = dict_to_xml(form_data)
-#         # print("Form Data (XML):", xml_data.decode('utf-8'))
-#         return HttpResponse(xml_data, content_type="application/xml")
-#     else:
-#         return HttpResponse("Invalid request method.")
-
-# def process_withdraw_elements(request):
-#     if request.method == 'GET':
-#         customer_mobile_number = request.GET.get('customermobilenumber')
-#         aadhar_number = request.GET.get('aadharNumber')
-#         amount = request.GET.get('amount')
-#         bank_option = request.GET.get('bankOption')
-#         order_id = generate_order_id()
-#         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-#         form_data = {
-#             'order_id': order_id,
-#             'mid':'mid',
-#             'timeStamp': timestamp,
-#             'customer_mobile_number': customer_mobile_number,
-#             'aadhar_number': aadhar_number,
-#             'amount': amount,
-#             'bank_option': bank_option,
-#         }
-#     return HttpResponse("Invalid request method.")
-
 def process_withdrawform(request):
     api_req_data_context = withdraw_apireq(request)
     context = {
         **api_req_data_context,
     }
-    def dict_to_xml(d, parent=None):
-        if parent is None:
-            parent = ET.Element('ns2ReqPay')  # Create ns2ReqPay element instead of xml
-        
-        for key, value in d.items():
-            if key == 'Device':
-                device_element = ET.SubElement(parent, key)
-                for tag in value['Tag']:
-                    tag_element = ET.SubElement(device_element, 'Tag')
-                    tag_element.set('name', tag['name'])
-                    tag_element.set('value', tag['value'])
-            elif key == 'Ac':
-                ac_element = ET.SubElement(parent, key)
-                for detail in value['Detail']:
-                    detail_tag = ET.SubElement(ac_element, 'Tag')
-                    detail_tag.set('name', detail['name'])
-                    detail_tag.set('value', detail['value'])
-            elif isinstance(value, dict):
-                dict_to_xml(value, parent=ET.SubElement(parent, key))
-            else:
-                parent.set(key, value)
-                
-        return parent
-
-    root = dict_to_xml(context)
-    xml_string = ET.tostring(root, encoding="unicode")
-    # Removing the <xml> root element
-    xml_string = xml_string.replace('<ns2ReqPay>', '').replace('</ns2ReqPay>', '')
-    return HttpResponse(xml_string, content_type='application/xml')
-
+    xml_data = xmltodict.unparse({"xml": context}, full_document=False)
+    xml_data = xml_data.replace('<ns2ReqPay', '<ns2:ReqPay').replace('</ns2ReqPay>', '</ns2:ReqPay>')
+    xml_data = xml_data.replace('xmlnsns2="http://npci.org/upi/schema/"', 'xmlns:ns2="http://npci.org/upi/schema/"')
+    xml_data = xml_data.replace('xmlnsns3="http://npci.org/cm/schema/"','xmlns:ns3="http://npci.org/cm/schema/"')
+    xml_response = '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n' + xml_data
+    return HttpResponse(xml_response, content_type="application/xml")
