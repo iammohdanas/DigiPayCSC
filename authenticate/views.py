@@ -1,5 +1,5 @@
 import datetime
-from django.http import HttpResponse, JsonResponse
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout, update_session_auth_hash
 from django.contrib import messages
@@ -13,11 +13,14 @@ import xml.etree.ElementTree as ET
 import dicttoxml
 import xmltool
 import xmltodict
+from django.urls import reverse
 
 def home(request):
     return render(request, 'authenticate/home.html')
 
 def withdrawform(request):
+    if not request.user.is_authenticated:
+        return HttpResponseRedirect(reverse('home'))
     bank_list_context = bank_list()
     context = {
         **bank_list_context,
@@ -47,12 +50,10 @@ def login_user(request):
     else:
         return render(request, 'authenticate/login.html')
 
-
 def logout_user(request):
     logout(request)
     messages.success(request, "Logged out successfully")
     return redirect('home')
-
 
 def register_user(request):
     if request.method == 'POST':
@@ -73,7 +74,6 @@ def register_user(request):
     }
     return render(request, 'authenticate/register.html', context)
 
-
 def edit_profile(request):
     if request.method == 'POST':
         form = EditProfileForm(request.POST, instance=request.user)
@@ -87,7 +87,6 @@ def edit_profile(request):
         'form': form,
     }
     return render(request, 'authenticate/edit_profile.html', context)
-
 
 def change_password(request):
     if request.method == 'POST':

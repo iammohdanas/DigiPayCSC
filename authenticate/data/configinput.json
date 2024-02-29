@@ -1,0 +1,9 @@
+{   
+    "aadhar_number": "324343219876",
+    "txn_amount": "100",
+    "bank_shortcode": "BARB",
+    "transaction_type": "22",
+    "bank_name": "Bank of Baroda",
+    "bank_iin": "606985",
+    "customer_mobile_number" : "9876543210"
+}

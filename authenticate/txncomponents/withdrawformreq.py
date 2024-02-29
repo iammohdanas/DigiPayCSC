@@ -29,18 +29,40 @@ def bankdata():
     }
     return context
 
+def load_configinput():
+    with open('authenticate\data\configinput.json', 'r') as f:
+        return json.load(f)
+configinput= load_configinput()
+
+def load_configinput2():
+    with open('authenticate\data\configinput2.json', 'r') as f:
+        return json.load(f)
+configinput2= load_configinput2()
 
 def withdraw_apireq(request):
     if request.method == 'POST':
-        customer_mobile_number = request.POST.get('customermobilenumber')
-        aadhar_number = request.POST.get('aadharNumber')
-        txn_amount = request.POST.get('amount')
-        bank_shortcode = request.POST.get('bankOption')
-        transaction_type = request.POST.get('transactionType', None)
-    txn_amount = str(Decimal(txn_amount).quantize(Decimal('0.01')))
-    aadhar_number = str(aadhar_number)
-    file_path_bank_list = 'authenticate\data\Bank_List.json'
+        configinput["customer_mobile_number"] = request.POST.get('customermobilenumber')
+        configinput["aadhar_number"] = request.POST.get('aadharNumber')
+        configinput["txn_amount"] = request.POST.get('amount')
+        configinput["bank_shortcode"] = request.POST.get('bankOption')
+        configinput["transaction_type"] = request.POST.get('transactionType', None)
+    bank_shortcode = configinput["bank_shortcode"]
+
+    if configinput["aadhar_number"]:
+        if len(configinput["aadhar_number"]) != 12 and not configinput["aadhar_number"].isdigit():
+            configinput["aadhar_number"] = "Invalid Aadhar"
+        else:
+            configinput["aadhar_number"] = str(configinput["aadhar_number"])
+
+    if configinput["txn_amount"]:
+        if configinput["txn_amount"]=="":
+            configinput["txn_amount"] = "Please enter amount."
+        elif not configinput["txn_amount"].isdigit() and len(configinput["txn_amount"])>=5:
+            configinput["txn_amount"] = "Invalid Amount entered"
+        else:
+            configinput["txn_amount"] = str(Decimal(configinput["txn_amount"]).quantize(Decimal('0.01')))
     
+    file_path_bank_list = 'authenticate\data\Bank_List.json'
     with open(file_path_bank_list, 'r') as file:
         bank_data = json.load(file)
     for bank in bank_data:
@@ -86,8 +108,8 @@ def withdraw_apireq(request):
     transaction = Transaction.objects.create(
             txn_id=txn_id,
             timestamp=crnTns,
-            aadhaar_number=aadhar_number,
-            transaction_amount_value=txn_amount,
+            aadhaar_number=configinput["aadhar_number"],
+            transaction_amount_value=configinput["txn_amount"],
             bank_id=bank_shortcode,
             customer_reference_number = customer_ref_number           
         )
@@ -113,7 +135,7 @@ def withdraw_apireq(request):
                 "@custRef": customer_ref_number,
                 "@id": txn_id,
                 "@note": "AEPS Transaction",
-                "@purpose": transaction_type,
+                "@purpose": configinput["transaction_type"],
                 "@refId": "008142",
                 "@refUrl": "https://www.npci.org.in/",
                 "@subType": "PAY",
@@ -151,7 +173,7 @@ def withdraw_apireq(request):
                     "@addrType": "AADHAAR",
                     "Detail": [
                         {"@name": "IIN", "@value": bank_iin},
-                        {"@name": "UIDNUM", "@value": aadhar_number}
+                        {"@name": "UIDNUM", "@value": configinput["aadhar_number"]}
                     ]
                 },
                 "Creds": {
@@ -165,7 +187,7 @@ def withdraw_apireq(request):
                             "@sa": "STGCSC0001",
                             "@tid": "registered",
                             "@txn": "008142",
-                            "@uid": aadhar_number,
+                            "@uid": configinput["aadhar_number"],
                             "@ver": "2.5",
                             "Uses": {
                                 "pi": "n",
@@ -195,7 +217,7 @@ def withdraw_apireq(request):
                 },
                 "Amount": {
                     "@curr": "INR",
-                    "@value": txn_amount
+                    "@value": configinput["txn_amount"]
                 }
             },
             "Payees": {
@@ -206,7 +228,7 @@ def withdraw_apireq(request):
                     "@type": "PERSON",
                     "Amount": {
                         "@curr": "INR",
-                        "@value": txn_amount
+                        "@value": configinput["txn_amount"]
                     },
                     "Creds": {
                         "Cred": {
