@@ -3,15 +3,10 @@ from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout, update_session_auth_hash
 from django.contrib import messages
-from flask import json
+import json
 from .forms import SignUpForm, EditProfileForm, ChangePasswordForm
-from django.contrib.auth.models import User
-from .components import generate_msg_id, generate_txn_id, dict_to_xml, bank_list
-import pandas as pd
+from .components import generate_msg_id, generate_txn_id, bank_list
 from authenticate.txncomponents.withdrawformreq import withdraw_apireq
-import xml.etree.ElementTree as ET
-import dicttoxml
-import xmltool
 import xmltodict
 from django.urls import reverse
 
@@ -21,10 +16,8 @@ def home(request):
 def withdrawform(request):
     if not request.user.is_authenticated:
         return HttpResponseRedirect(reverse('home'))
-    bank_list_context = bank_list()
-    context = {
-        **bank_list_context,
-    }
+    
+    context = {'bank_data':bank_list()}
     return render(request, 'transaction/withdrawform.html',context)
 
 def depositform(request):
@@ -104,17 +97,9 @@ def change_password(request):
     }
     return render(request, 'authenticate/change_password.html', context)
 
-def load_configinput():
-    with open('authenticate\data\configinput.json', 'r') as f:
-        return json.load(f)
-configinput= load_configinput()
-
-def load_configinput2():
-    with open('authenticate\data\configinput2.json', 'r') as f:
-        return json.load(f)
-configinput2= load_configinput2()
-
 def process_withdrawform(request):
+    configinput = {}
+    configinput2 ={}
     if request.method == 'POST':
         configinput["customer_mobile_number"] = request.POST.get('customermobilenumber')
         configinput["aadhar_number"] = request.POST.get('aadharNumber')
@@ -127,6 +112,7 @@ def process_withdrawform(request):
     msg_id = generate_msg_id(request)
     configinput2["txnId"] = txn_id
     configinput2["msgId"] = msg_id
+    configinput2["callbackEndpointIP"] = "127.0.0.1"
 
     api_req_data_context = withdraw_apireq(configinput, configinput2)
     context = {

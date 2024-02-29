@@ -4,57 +4,30 @@ import json
 import random
 import time
 from django.http import HttpResponse
-from authenticate.components import generate_txn_id, generate_msg_id, generate_timestamp
+from authenticate.components import bank_list, bank_iin_list
 from withdrawreqDB.models import Transaction
-import pandas
-
-def bankdata():
-    file_path = 'authenticate\data\Bank_List.json'
-    with open(file_path, 'r') as file:
-        bank_data = json.load(file)
-    bank_id = [bank['BankID'] for bank in bank_data]
-    bank_names = [bank['BANK_NAME'] for bank in bank_data]
-    bank_shortcode_data = [bank['ShortCode'] for bank in bank_data]
-    bank_imps_status = [bank['IMPS_Status'] for bank in bank_data]
-    bank_neft_status = [bank['NEFT_Status'] for bank in bank_data]
-    bank_isverficationavailable = [bank['IsVerficationAvailable'] for bank in bank_data]
-    context = {
-        'bank_data':bank_data,
-        'bank_id': bank_id,
-        'bank_names': bank_names,
-        'bank_shortcode': bank_shortcode_data,
-        'bank_imps_status': bank_imps_status,
-        'bank_neft_status': bank_neft_status,
-        'bank_isverficationavailable' : bank_isverficationavailable,
-    }
-    return context
+import ipaddress
 
 def withdraw_apireq(configinput, configinput2):
     bank_shortcode = configinput["bank_shortcode"]
     if configinput["aadhar_number"]:
         if len(configinput["aadhar_number"]) != 12 and not configinput["aadhar_number"].isdigit():
-            configinput["aadhar_number"] = "Invalid Aadhar"
-        else:
-            configinput["aadhar_number"] = str(configinput["aadhar_number"])
-
+            return "Invalid Aadhaar"
     if configinput["txn_amount"]:
         if configinput["txn_amount"]=="":
-            configinput["txn_amount"] = "Please enter amount."
+            return "Empty txn_amount"
         elif not configinput["txn_amount"].isdigit() and len(configinput["txn_amount"])>=5:
-            configinput["txn_amount"] = "Invalid Amount entered"
-        else:
-            configinput["txn_amount"] = str(Decimal(configinput["txn_amount"]).quantize(Decimal('0.01')))
+            return "Invalid Amount entered"
+    if "callbackEndpointIP" not in configinput2 or not ipaddress.ip_address(configinput2["callbackEndpointIP"]):
+        return "Invalid callbackEndpointIP"
+    configinput["txn_amount"] = str(Decimal(configinput["txn_amount"]).quantize(Decimal('0.01')))
     
-    file_path_bank_list = 'authenticate\data\Bank_List.json'
-    with open(file_path_bank_list, 'r') as file:
-        bank_data = json.load(file)
+    bank_data = bank_list()
     for bank in bank_data:
         if bank['ShortCode'] == bank_shortcode:
             bank_name = bank['BANK_NAME']
     
-    file_path_bank_IIN = 'authenticate\data\Bank_IIN_list.json'
-    with open(file_path_bank_IIN, 'r') as file:
-        bank_IIN_data = json.load(file)
+    bank_IIN_data = bank_iin_list()
     for bank in bank_IIN_data:
         if bank['Bank_Code'] == bank_shortcode:
             bank_iin = str(bank['IIN'])
