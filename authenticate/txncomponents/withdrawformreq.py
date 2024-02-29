@@ -29,18 +29,23 @@ def bankdata():
     }
     return context
 
+def withdraw_apireq(configinput, configinput2):
+    bank_shortcode = configinput["bank_shortcode"]
+    if configinput["aadhar_number"]:
+        if len(configinput["aadhar_number"]) != 12 and not configinput["aadhar_number"].isdigit():
+            configinput["aadhar_number"] = "Invalid Aadhar"
+        else:
+            configinput["aadhar_number"] = str(configinput["aadhar_number"])
 
-def withdraw_apireq(request):
-    if request.method == 'POST':
-        customer_mobile_number = request.POST.get('customermobilenumber')
-        aadhar_number = request.POST.get('aadharNumber')
-        txn_amount = request.POST.get('amount')
-        bank_shortcode = request.POST.get('bankOption')
-        transaction_type = request.POST.get('transactionType', None)
-    txn_amount = str(Decimal(txn_amount).quantize(Decimal('0.01')))
-    aadhar_number = str(aadhar_number)
-    file_path_bank_list = 'authenticate\data\Bank_List.json'
+    if configinput["txn_amount"]:
+        if configinput["txn_amount"]=="":
+            configinput["txn_amount"] = "Please enter amount."
+        elif not configinput["txn_amount"].isdigit() and len(configinput["txn_amount"])>=5:
+            configinput["txn_amount"] = "Invalid Amount entered"
+        else:
+            configinput["txn_amount"] = str(Decimal(configinput["txn_amount"]).quantize(Decimal('0.01')))
     
+    file_path_bank_list = 'authenticate\data\Bank_List.json'
     with open(file_path_bank_list, 'r') as file:
         bank_data = json.load(file)
     for bank in bank_data:
@@ -53,19 +58,10 @@ def withdraw_apireq(request):
     for bank in bank_IIN_data:
         if bank['Bank_Code'] == bank_shortcode:
             bank_iin = str(bank['IIN'])
-        elif bank['Bank_Code'] == bank_shortcode:
-            bank_iin = str(bank['IIN'])
 
-    txn_id = generate_txn_id(request)
-    while Transaction.objects.filter(txn_id=txn_id).exists():
-        txn_id = generate_txn_id(request)
-    
-    msg_id = generate_msg_id(request)
-
-    customer_ref_number = str(random.randint(100000000000, 999999999999))
-    while Transaction.objects.filter(customer_reference_number=customer_ref_number).exists():
-        customer_ref_number = str(random.randint(100000000000, 999999999999))
-
+    current_date = datetime.now().strftime("%Y%m%d")
+    random_digits = ''.join(str(random.randint(0, 9)) for _ in range(4))
+    configinput2["custRef"] = current_date[:8] + random_digits
     
     current_local_time = datetime.now()
     offset_seconds = -time.timezone if (time.localtime().tm_isdst == 0) else -time.altzone
@@ -84,12 +80,12 @@ def withdraw_apireq(request):
     crnTns = current_local_time.strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] + offset_str
 
     transaction = Transaction.objects.create(
-            txn_id=txn_id,
+            txn_id=configinput2["txnId"],
             timestamp=crnTns,
-            aadhaar_number=aadhar_number,
-            transaction_amount_value=txn_amount,
+            aadhaar_number=configinput["aadhar_number"],
+            transaction_amount_value=configinput["txn_amount"],
             bank_id=bank_shortcode,
-            customer_reference_number = customer_ref_number           
+            customer_reference_number = configinput2["custRef"]           
         )
     
     context = {
@@ -101,8 +97,8 @@ def withdraw_apireq(request):
             "@xmlnsns2": "http://npci.org/upi/schema/",
             "@xmlnsns3": "http://npci.org/cm/schema/",
             "Head": {
-                "@callbackEndpointIP": "192.168.48.237",
-                "@msgId": msg_id,
+                "@callbackEndpointIP": configinput2["callbackEndpointIP"],
+                "@msgId": configinput2["msgId"],
                 "@orgId": "232323",
                 "@prodType": "AEPS",
                 "@ts": ts,
@@ -110,10 +106,10 @@ def withdraw_apireq(request):
             },
             "Txn": {
                 "@crtnTs": crnTns,
-                "@custRef": customer_ref_number,
-                "@id": txn_id,
+                "@custRef": configinput2["custRef"],
+                "@id": configinput2["txnId"],
                 "@note": "AEPS Transaction",
-                "@purpose": transaction_type,
+                "@purpose": configinput["transaction_type"],
                 "@refId": "008142",
                 "@refUrl": "https://www.npci.org.in/",
                 "@subType": "PAY",
@@ -151,7 +147,7 @@ def withdraw_apireq(request):
                     "@addrType": "AADHAAR",
                     "Detail": [
                         {"@name": "IIN", "@value": bank_iin},
-                        {"@name": "UIDNUM", "@value": aadhar_number}
+                        {"@name": "UIDNUM", "@value": configinput["aadhar_number"]}
                     ]
                 },
                 "Creds": {
@@ -165,7 +161,7 @@ def withdraw_apireq(request):
                             "@sa": "STGCSC0001",
                             "@tid": "registered",
                             "@txn": "008142",
-                            "@uid": aadhar_number,
+                            "@uid": configinput["aadhar_number"],
                             "@ver": "2.5",
                             "Uses": {
                                 "pi": "n",
@@ -195,7 +191,7 @@ def withdraw_apireq(request):
                 },
                 "Amount": {
                     "@curr": "INR",
-                    "@value": txn_amount
+                    "@value": configinput["txn_amount"]
                 }
             },
             "Payees": {
@@ -206,7 +202,7 @@ def withdraw_apireq(request):
                     "@type": "PERSON",
                     "Amount": {
                         "@curr": "INR",
-                        "@value": txn_amount
+                        "@value": configinput["txn_amount"]
                     },
                     "Creds": {
                         "Cred": {
