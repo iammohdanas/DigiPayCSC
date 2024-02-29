@@ -69,42 +69,6 @@
 <!-- Bootstrap JS (Optional, only required if you need Bootstrap JavaScript features) -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('authenticateBtn').addEventListener('click', function() {
-        // Create JSON configuration object
-        var config = {
-            customermobilenumber: document.getElementById('withdrawformcustomerMobileNumber').value,
-            aadharNumber: document.getElementById('withdrawformaadharNumber').value,
-            amount: document.getElementById('withdrawformamount').value,
-            bankOption: document.getElementById('withdrawformbankOption').value,
-            transactionType: document.getElementById('withdrawformtransactionType').value
-        };
-
-        // Convert JSON to string
-        var jsonString = JSON.stringify(config);
-
-        // Send POST request to Django view
-        fetch('{% url "process_withdrawform" %}', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'X-CSRFToken': '{{ csrf_token }}'
-            },
-            body: jsonString
-        })
-        .then(response => response.json())
-        .then(data => {
-            // Handle response from Django view if needed
-            console.log(data);
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-    });
-});
-</script>
-
 </body>
 </html>
 
