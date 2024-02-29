@@ -6,7 +6,7 @@ from django.contrib import messages
 from flask import json
 from .forms import SignUpForm, EditProfileForm, ChangePasswordForm
 from django.contrib.auth.models import User
-from .components import generate_txn_id, dict_to_xml, bank_list
+from .components import generate_msg_id, generate_txn_id, dict_to_xml, bank_list
 import pandas as pd
 from authenticate.txncomponents.withdrawformreq import withdraw_apireq
 import xml.etree.ElementTree as ET
@@ -104,8 +104,31 @@ def change_password(request):
     }
     return render(request, 'authenticate/change_password.html', context)
 
+def load_configinput():
+    with open('authenticate\data\configinput.json', 'r') as f:
+        return json.load(f)
+configinput= load_configinput()
+
+def load_configinput2():
+    with open('authenticate\data\configinput2.json', 'r') as f:
+        return json.load(f)
+configinput2= load_configinput2()
+
 def process_withdrawform(request):
-    api_req_data_context = withdraw_apireq(request)
+    if request.method == 'POST':
+        configinput["customer_mobile_number"] = request.POST.get('customermobilenumber')
+        configinput["aadhar_number"] = request.POST.get('aadharNumber')
+        configinput["txn_amount"] = request.POST.get('amount')
+        configinput["bank_shortcode"] = request.POST.get('bankOption')
+        configinput["transaction_type"] = request.POST.get('transactionType', None)
+        txn_id = generate_txn_id(request)
+    
+    txn_id = generate_txn_id(request)   
+    msg_id = generate_msg_id(request)
+    configinput2["txnId"] = txn_id
+    configinput2["msgId"] = msg_id
+
+    api_req_data_context = withdraw_apireq(configinput, configinput2)
     context = {
         **api_req_data_context,
     }

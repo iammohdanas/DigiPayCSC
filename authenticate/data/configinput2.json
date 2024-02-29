@@ -1,9 +1,9 @@
 {
     "ts": "2024-02-28T16:13:01+05:30",
     "msgId": "UTIm9BoPoXm02xsChHdI5dwEbSjNqkmm",
-    "crtnTs" : "2024-02-28T16:20:23.463+05:30",
+    "crnTns" : "2024-02-28T16:20:23.463+05:30",
     "custRef" : "699393399805",
-    "TxnId" : "UTI11688491759664654607407184622703",
+    "txnId" : "UTI11688491759664654607407184622703",
     "posEntryCode" : "INET",
     "posServCdnCode" : "019",
     "cardAccpTrId"  : "05",
@@ -12,5 +12,4 @@
     "PinCode" : "123456",
     "AgentId" :  "XXXXXXXXXXXXXXXXXXXXXXXXX",
     "callbackEndpointIP" : "192.168.48.237"
-
 }
